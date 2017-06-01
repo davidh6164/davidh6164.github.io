@@ -1,0 +1,33 @@
+/* Footer */
+footer {
+  background-color:#1e1e1e;
+  color:white;
+  font-weight: 100;
+  z-index: 1000;
+  font-size: 1em;
+  padding: 5px 0 0 10px;  
+}
+footer .text-links {
+    margin: 25px 0 25px -10px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+footer .text-links a {
+    text-decoration: none;
+    color:#fff;
+}
+.share-group2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.share-group2 a svg {
+    height: 34px;
+    width: 34px;
+    filter:grayscale(1);
+    transition: all 0.4s ease-in-out;
+}
+.share-group2 a svg:hover, .share-group2 a svg:active, .share-group2 a svg:focus {
+    filter:grayscale(0);
+    cursor:pointer;
+}
