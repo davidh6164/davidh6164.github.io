@@ -753,10 +753,6 @@ footer h5 {
     margin: -15px 0 0 0;
     height: 80px;
 }
-.projects-heading:active, .projects-heading:hover, .projects-heading:focus {
-    margin: -45px 0 0 0;
-    height: 110px;
-}
 		.projects-p {
 			padding: 10px 5px;
 			position: relative;
