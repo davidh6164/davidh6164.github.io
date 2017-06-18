@@ -578,7 +578,7 @@ body,
     background: linear-gradient(#cd7100,#e77f00 15%);
 }
 .contact-col {
-    box-shadow: 4px 0px 6px rgba(0,0,0,0.45);
+    box-shadow: -4px 0px 6px rgba(0,0,0,0.65);
 }
 
 
