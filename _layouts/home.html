@@ -9,51 +9,73 @@ layout: default
           <div class="row">
             <div class="col-xs-12 landing-image">
                 <div class="landing-overlay">
-                    <p class="projects-p">Hello, My name is David Horn and I am a <span class="focus-text">Web Designer</span>. I specialize in UI Design, but I can also develop small to medium size websites for individuals, companies and organizations.</p>
+                    <p class="projects-p">Hello, My name is David Horn and I am a <span class="focus-text">Web Designer</span>. I specialize in UI Design, but I also develop small to medium size websites for individuals, companies and organizations.</p>
+                    <div class="share-group hidden-xs">
+                <a target="_blank" href="https://twitter.com/david_onTheWeb">
+                    <i class="fa fa-twitter landing-icon" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://codepen.io/davidh6164">
+                    <i class="fa fa-codepen landing-icon" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://github.com/davidh6164">
+                    <i class="fa fa-github landing-icon" aria-hidden="true"></i>
+                </a>
+            </div>
                 </div>
               </div>
           </div>
     
           <div class="content">
               
-              <div class="row">
-                <div class="col-xs-12">
-                      <h1 class="page-heading">Latest Projects</h1>
-                    <div class="projects-thumbnail"></div>
-                    <h4 class="projects-heading">Blue Fox Furnishings</h4>
+              <section class="row heighten-row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="projects-card">
+                        <h4 class="projects-heading">Blue Fox Furnishings</h4>
+                        <p>I designed this website using HTML, CSS, and jQuery. I utilized the Bootstrap framework for a grid system. Using Magento integrated with Wordpress, I added shop and blog functionality.</p>
+                        <img src="../assets/blue-fox-furnishings.png" alt="" class="projects-card-img">
+                    </div>
                   </div>
+                  
+                <div class="col-xs-12 col-sm-6">
+                      <div class="projects-card">
+                          <img src="../assets/blue-fox-furnishings.png" alt="" class="projects-card-img">
+                          <h4 class="projects-heading">Ancient Sparta</h4>
+                      </div>
                   </div>
-              
-              <div class="row">
-                  <div class="col-xs-12">
-                      <div class="projects-thumbnail"></div>
-                      <h4 class="projects-heading">Project Ancient Sparta</h4>
-                  </div>
-                  </div>
+                  </section>
 
-              <div class="row">
+              <section class="row heighten-row">
   <div class="col-xs-12">
   <h1 class="page-heading">Latest Blog Posts</h1>
   
   {{ content }}
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-      <li>
+      <div>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
-      </li>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <div class="post-preview">
+           {{ post.content | truncatewords:75}}
+            <a href="{{ post.url }}">Read more...</a>
+              </div>
+      </div>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  </div>
 </div>
-</div>
+</section>
+              
+              <section class="row">
+                <div class="col-xs-12 col-sm-6">
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                      <a href="#" class="contact-button">Start on a Project Today!</a>
+                  </div>
+              </section>
+              
               </div><!-- /.content -->
           </div><!-- /.container-fluid -->
           
