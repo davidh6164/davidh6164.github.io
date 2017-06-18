@@ -134,7 +134,7 @@ body,
 }
 .logo-sub-heading {
     top: 20px;
-    left: 150px;
+    left: 50px;
     font-size: 0.85em;
     float:left;
     position:relative;
@@ -709,9 +709,6 @@ footer h5 {
 		}
 	}
 	@media all and (min-width: 52.5em) {
-        .logo-sub-heading {
-            left: 275px;
-        }
 		.david-nav, .david-nav ul {
 			width: 19.3333vw
 		}
