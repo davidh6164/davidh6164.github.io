@@ -102,9 +102,6 @@ body,
     padding-top: 75px;
     padding-bottom: 75px;
 }
-.heighten-row:nth-of-type(2) {
-    box-shadow: 0px 5px 8px rgba(0,0,0,0.55);
-}
 
 
 
@@ -578,7 +575,7 @@ body,
     background: linear-gradient(#cd7100,#e77f00 15%);
 }
 .contact-col {
-    box-shadow: -4px 0px 6px rgba(0,0,0,0.65);
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.55);
     height:100%;
     width:100%;
     position:relative;
