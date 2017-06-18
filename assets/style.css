@@ -377,11 +377,7 @@ body,
 .projects-heading:nth-of-type(2){
     text-align:right;
 }
-.projects-heading:active, .projects-heading:hover, .projects-heading:focus {
-    margin: -115px 0 0 0;
-    height: 155px;
-    background: rgba(50,50,50,0.95);
-}
+
 
 	.projects-breadcrumb {
 		font-size: 1.35em;
@@ -575,7 +571,9 @@ body,
     color:#fff;
     background: linear-gradient(#cd7100,#e77f00 15%);
 }
-
+.shadow-row {
+    box-shadow: 7px 0 10px rgba(0,0,0,0.55);
+}
 
 
 
