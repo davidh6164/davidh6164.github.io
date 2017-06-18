@@ -128,7 +128,7 @@ body,
     font-family: sans-serif;
     color:#fff;
     position:absolute;
-    font-size: 1.1em;
+    font-size: 0.95em;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -136,6 +136,8 @@ body,
     top: 20px;
     left: 150px;
     font-size: 0.85em;
+    float:left;
+    position:relative;
 }
 .desktop-navbar {
     display:none;
@@ -572,7 +574,7 @@ body,
     background: linear-gradient(#cd7100,#e77f00 15%);
 }
 .shadow-row {
-    box-shadow: 7px 0 10px rgba(0,0,0,0.55);
+    box-shadow: 0px 10px 7px -7px rgba(0,0,0,0.55);
 }
 
 
@@ -698,10 +700,6 @@ footer h5 {
     padding: 5px 15px;
     margin: -15px 0 0 0;
     height: 75px;
-}
-.projects-heading:active, .projects-heading:hover, .projects-heading:focus {
-    margin: -45px 0 0 0;
-    height: 105px;
 }
 		.sticky-section-jump {
 			position: fixed
