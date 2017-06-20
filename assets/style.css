@@ -356,8 +356,8 @@ body,
 
 
     .projects-card {
-        min-height: 300px;
-        min-width: 250px;
+        height: 300px;
+        width: 250px;
         margin: 10px auto;
         display: block;
         position: relative;
@@ -702,13 +702,6 @@ footer h5 {
 		.projects-p {
 			width: 500px
 		}
-		    .projects-card {
-        height: 300px;
-        width: 380px;
-        }
-        .projects-card-img {
-    height: 240px;
-}
 .projects-heading {
     padding: 5px 15px;
     margin: -15px 0 0 0;
@@ -756,13 +749,6 @@ footer h5 {
 			margin: 20px auto 10px auto;
 			position: relative
 		}
-        .projects-card {
-        height: 375px;
-        width: 450px;
-        }
-        .projects-card-img {
-    height: 310px;
-}
 .projects-heading {
     padding: 5px 15px;
     margin: -15px 0 0 0;
