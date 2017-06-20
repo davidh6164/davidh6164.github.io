@@ -440,6 +440,7 @@ body,
     float:right;
     position:relative;
     right:25px;
+    font-size:1.25em;
 }
 .post-link {
     text-decoration:none;
@@ -574,12 +575,14 @@ body,
     text-align:center;
     margin: 3px 0 0 0;
     padding: 25px;
+    opacity:0.7;
     transition: all 0.4s ease-in-out;
 }
 .contact-button:hover, .contact-button:active, .contact-button:focus {
     text-decoration:none;
     color:#fff;
     background: linear-gradient(#cd7100,#e77f00 15%);
+    opacity:1;
 }
 .shadow-row {
     box-shadow: 0px 10px 7px -7px rgba(0,0,0,0.55);
