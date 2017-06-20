@@ -430,8 +430,8 @@ body,
 }
 .post-list {
     padding-left: 35px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 45px;
+    margin-bottom: 75px;
 }
 .post-list h3 {
     margin: 15px 0 0 0;
@@ -648,6 +648,7 @@ footer h5 {
 
 
 /* MEDIA QUERIES */
+/* landscape smartphone & up */
 	@media all and (min-width: 29.5em) {
 		.david-nav, .david-nav ul {
 			width: 50vw
@@ -709,6 +710,11 @@ footer h5 {
     margin: -15px 0 0 0;
     height: 75px;
 }
+        .post-list {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+        }
 		.sticky-section-jump {
 			position: fixed
 		}
