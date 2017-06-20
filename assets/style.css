@@ -356,14 +356,17 @@ body,
 
 
     .projects-card {
-        height: 300px;
-        width: 250px;
+        height: 400px;
+        width: 300px;
         margin: 10px auto;
         display: block;
         position: relative;
         border: 1px solid rgba(50,50,50,0.55);
         box-shadow: 2px 2px 5px rgba(0,0,0,0.45);
-        border-radius:3px;
+        border-radius: 5px;
+}
+.projects-card:hover, .projects-card:active, .projects-card:focus {
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.65);
 }
 .projects-card-img {
     height:100%;
