@@ -353,8 +353,14 @@ body,
 		position: relative
 	}
 
-
-
+.projects-card-overlay {
+    background-color: rgba(0,0,0,0.85);
+    opacity:0;
+    transition: all 0.35s ease-in-out;
+}
+.projects-card-overlay:hover, .projects-card-overlay:active, .projects-card-overlay:focus {
+    opacity:1;
+}
     .projects-card {
         height: 400px;
         width: 300px;
@@ -364,7 +370,7 @@ body,
         border: 1px solid rgba(50,50,50,0.55);
         box-shadow: 2px 2px 5px rgba(0,0,0,0.45);
         border-radius: 5px;
-        transition: all 0.4s ease-in-out;
+        transition: all 0.35s ease-in-out;
 }
 .projects-card:hover, .projects-card:active, .projects-card:focus {
     box-shadow: 6px 6px 10px rgba(0,0,0,0.65);
