@@ -109,6 +109,9 @@ body,
 		z-index: 1000;
 		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5)
 	}
+.navbar {
+    height:50px;
+}
 	.david-logo-wrap {
 		height: 52px;
 		width: 110px;
@@ -432,6 +435,11 @@ body,
 }
 .post-list h3 {
     margin: 15px 0 0 0;
+}
+.post-meta {
+    float:right;
+    position:relative;
+    right:25px;
 }
 .post-link {
     text-decoration:none;
