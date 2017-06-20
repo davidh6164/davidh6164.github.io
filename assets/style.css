@@ -354,11 +354,13 @@ body,
 	}
 
 .projects-card-overlay {
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0,0,0,0.65);
     opacity:0;
     transition: all 0.35s ease-in-out;
     position:absolute;
     margin:10px auto;
+    left: 0;
+    right: 0;
     height:400px;
     width:300px;
 }
