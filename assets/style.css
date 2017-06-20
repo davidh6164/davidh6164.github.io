@@ -363,6 +363,7 @@ body,
     right: 0;
     height:400px;
     width:300px;
+    z-index:10;
 }
 .projects-card-overlay:hover, .projects-card-overlay:active, .projects-card-overlay:focus {
     opacity:1;
