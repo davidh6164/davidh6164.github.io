@@ -357,6 +357,10 @@ body,
     background-color: rgba(0,0,0,0.85);
     opacity:0;
     transition: all 0.35s ease-in-out;
+    position:absolute;
+    margin:10px auto;
+    height:400px;
+    width:300px;
 }
 .projects-card-overlay:hover, .projects-card-overlay:active, .projects-card-overlay:focus {
     opacity:1;
