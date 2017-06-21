@@ -107,10 +107,28 @@ body,
     width:100%;
 }
 .browser-img {
-    height: 850px;
-    width: 450px;
+    height: 700px;
+    width: 350px;
+    margin: 25px auto;
+    display: block;
+    position: relative;
+    border-radius:5px;
 }
-
+.main-btn {
+    border: 1px solid #e67f00;
+    margin: 15px auto;
+    display: block;
+    background: #ff8d00;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 0px 2px #ffba67, 0px 2px 0px 2px #ffba67;
+    transition: all 0.3s ease-in-out;
+}
+.main-btn:active {
+    transform:translateY(2px);
+}
 
 
 	nav {
@@ -691,6 +709,7 @@ footer h5 {
 			overflow-y: scroll
 		}
 	}
+/* portrait tablet & up */
 	@media all and (min-width: 40.5em) {
 		.mobile-hide {
 			visibility: visible
@@ -721,6 +740,13 @@ footer h5 {
         margin: 175px auto 0 auto;
             font-size:1.5em;
 	}
+        .main-p {
+            width: 600px;
+        }
+        .browser-img {
+    height: 900px;
+    width: 500px;
+        }
 		.projects-heading {
 			font-size: 1.75em
 		}
@@ -731,9 +757,6 @@ footer h5 {
 		.project-bff-p,
 		.project-bff-p2 {
 			font-size: 1.45em
-		}
-		.projects-p {
-			width: 500px
 		}
 .projects-heading {
     padding: 5px 15px;
@@ -752,6 +775,7 @@ footer h5 {
 			height: 30vh
 		}
 	}
+/* desktop */
 	@media all and (min-width: 52.5em) {
 		.david-nav, .david-nav ul {
 			width: 19.3333vw
