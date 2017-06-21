@@ -114,6 +114,10 @@ body,
     position: relative;
     border-radius:2px;
 }
+.browser-img-alt {
+    height: 800px;
+    width: 700px;
+}
 .main-btn {
     border: 1px solid #e67f00;
     margin: 15px auto;
