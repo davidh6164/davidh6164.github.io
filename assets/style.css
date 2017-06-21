@@ -326,36 +326,23 @@ body,
 
 
 .page-heading {
-    text-align:center;
-}
-	.homepage-heading {}.homepage-p {}.homepage-icon {}.about-heading,
-	.projects-heading {
+        text-align:center;
 		padding: 5px 15px;
 		position: relative;
 		display: block;
 		margin: 5px auto;
 		text-align: center
 	}
-	.about-p,
-	.projects-p {
+	.main-p {
 		padding: 10px 25px;
 		position: relative;
 		display: block;
 		margin: 5px auto;
 		width: 300px
 	}
-	.about-icon {
-		height: 95px;
-		width: 95px;
-		margin: 10px auto;
-		position: relative
-	}
-	.work-icon {
-		height: 110px;
-		width: 110px;
-		margin: 10px auto 2px auto;
-		position: relative
-	}
+
+
+
 .projects-card-overlay, .projects-card, .projects-card-img {
     border-radius: 5px;
 }
@@ -696,6 +683,9 @@ footer h5 {
 		}
         .mobile-nav-open {
             display:none;
+        }
+        .banner-img {
+            height:500px;
         }
         .desktop-navbar {
             display:inline;
