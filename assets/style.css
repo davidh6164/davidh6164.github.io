@@ -102,6 +102,10 @@ body,
     padding-top: 75px;
     padding-bottom: 75px;
 }
+.banner-img {
+    height:300px;
+    width:100%;
+}
 
 
 
