@@ -375,7 +375,8 @@ body,
 		position: relative;
 		display: block;
 		margin: 5px auto;
-		width: 300px
+		width: 300px;
+        font-size:1.25em;
 	}
 
 
