@@ -106,17 +106,19 @@ body,
     height:300px;
     width:100%;
 }
-.browser-img {
-    height: 700px;
-    width: 350px;
+.browser-img, .browser-img-alt {
     margin: 25px auto;
     display: block;
     position: relative;
     border-radius:2px;
 }
+.browser-img {
+    height: 700px;
+    width: 350px;
+}
 .browser-img-alt {
-    height: 800px;
-    width: 700px;
+    height: 350px;
+    width: 300px;
 }
 .main-btn {
     border: 1px solid #e67f00;
@@ -756,6 +758,10 @@ footer h5 {
     height: 900px;
     width: 500px;
         }
+        .browser-img-alt {
+    height: 850px;
+    width: 800px;
+}
 		.projects-heading {
 			font-size: 1.75em
 		}
