@@ -121,11 +121,11 @@ body,
     width: 300px;
 }
 .browser-img-alt2 {
-    height: 200px;
+    height: 175px;
     width: 300px;
 }
 .main-btn {
-    border: 1px solid #e67f00;
+    border: none;
     margin: 15px auto;
     display: block;
     background: #ff8d00;
@@ -767,7 +767,7 @@ footer h5 {
     width: 800px;
 }
         .browser-img-alt2 {
-    height: 600px;
+    height: 500px;
     width: 900px;
 }
 		.projects-heading {
