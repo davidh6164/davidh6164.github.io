@@ -106,7 +106,7 @@ body,
     height:300px;
     width:100%;
 }
-.browser-img, .browser-img-alt {
+.browser-img, .browser-img-alt, .browser-img-alt2 {
     margin: 25px auto;
     display: block;
     position: relative;
@@ -118,6 +118,10 @@ body,
 }
 .browser-img-alt {
     height: 350px;
+    width: 300px;
+}
+.browser-img-alt2 {
+    height: 200px;
     width: 300px;
 }
 .main-btn {
@@ -761,6 +765,10 @@ footer h5 {
         .browser-img-alt {
     height: 850px;
     width: 800px;
+}
+        .browser-img-alt2 {
+    height: 600px;
+    width: 900px;
 }
 		.projects-heading {
 			font-size: 1.75em
