@@ -431,7 +431,6 @@ body,
     top:100px;
 }
 .projects-detail {
-    color:#fff;
     top:125px;
 }
 .projects-heading {
@@ -763,8 +762,8 @@ footer h5 {
     width: 500px;
         }
         .browser-img-alt {
-    height: 850px;
-    width: 800px;
+    height: 650px;
+    width: 600px;
 }
         .browser-img-alt2 {
     height: 500px;
