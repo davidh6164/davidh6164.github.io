@@ -1,11 +1,25 @@
 ---
 layout: default
+title: Blog
 ---
 
-<h4>blog</h4>
+
+<div class="container-fluid">
+    
+    <section class="row">
+        <img src="assets/contact-me.jpeg" class="banner-img" alt="Contact Me">
+    </section>
+    
+    <section class="row" style="height:1000px">
+        <div class="col-xs-12">
+            <h4 class="page-heading" style="padding-top:100px">blog</h4>
 {% for post in site.posts %}
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 {% endfor %}
 
 <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </div>
+    </section>
+    
+</div> <!-- /container-fluid -->
