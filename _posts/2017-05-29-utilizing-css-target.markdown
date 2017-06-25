@@ -6,21 +6,20 @@ categories: jekyll update
 ---
 
 ## Contents
- *Fragment Identifiers
- *Browser Support
- *Default Jumping Behavior
- *Lightbox
- *Image Galler
- *Sliding Navigation Menu
- *Yellow Fading Technique
- *Targeting All Elements
+* Fragment Identifiers
+* Browser Support
+* Default Jumping Behavior
+* Lightbox
+* Image Galler
+* Sliding Navigation Menu
+* Yellow Fading Technique
+* Targeting All Elements
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+----
+****
+
+```html
+<p>some html code</p>
+```
 
 
