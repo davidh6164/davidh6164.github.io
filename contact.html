@@ -10,19 +10,29 @@ permalink: /contact
         <img src="assets/contact-me.jpeg" class="banner-img" alt="Contact Me">
     </section>
     
-    <section class="row" style="height:1000px">
+    <section class="row" style="padding: 100px 25px 225px 25px">
         <div class="col-xs-12">
-            <p class="body-text" style="padding-top:100px">Testing</p>
+            <p class="body-text" style="padding-top:100px">Fill out the form below with your name, email address, and a quick message and I will respond as quickly as I can.</p>
         </div>
     </section>
     
     <section class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12">        
 <form action="https://formspree.io/davidh882@gmail.com"
       method="POST">
+  <div class="form-group">
+    <label for="name">Name:</label>
     <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" name="_replyto" class="form-control">
+  </div>
+      <div class="form-group">
+    <label for="msg">Message:</label>
+    <input type="hidden" name="_subject" value="New submission!" class="form-control">
+  </div>
+  <input type="submit" value="Send" class="main-btn">
 </form>
         </div> 
     </section> 
