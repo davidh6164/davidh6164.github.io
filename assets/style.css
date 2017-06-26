@@ -728,6 +728,9 @@ footer h5 {
 		.david-nav {
 			overflow-y: scroll
 		}
+        .form-wrap {
+            width: 65%;
+        }
 	}
 /* portrait tablet & up */
 	@media all and (min-width: 40.5em) {
@@ -738,7 +741,7 @@ footer h5 {
             display:none;
         }
         .banner-img {
-            height:500px;
+            height:425px;
         }
         .desktop-navbar {
             display:inline;
