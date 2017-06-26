@@ -650,6 +650,12 @@ body,
 .shadow-row {
     box-shadow: 0px 10px 7px -7px rgba(0,0,0,0.55);
 }
+.form-wrap {
+    width: 85%;
+    display:block;
+    position:relative;
+    margin: 25px auto;
+}
 
 
 
