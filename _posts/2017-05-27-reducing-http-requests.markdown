@@ -125,7 +125,7 @@ body {
 .image-leela {
   background-position: -720px 0;
 }
-{& endhighlight %}
+{% endhighlight %}
 
 Depending on the icon you want to show, the background-position values will be different for each icon class. The math depends on how big your icon is. For example, if I want to show the third icon, I need to switch the position of the image to -432px 0. 
 
