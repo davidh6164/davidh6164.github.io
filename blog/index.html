@@ -6,13 +6,9 @@ title: Blog
 
 <div class="container-fluid">
     
-    <section class="row">
-        <img src="assets/contact-me.jpeg" class="banner-img" alt="Contact Me">
-    </section>
-    
-    <section class="row" style="height:1000px">
+    <section class="row" style="height:1000px;padding:100px 50px">
         <div class="col-xs-12">
-            <h4 class="page-heading" style="padding-top:100px">blog</h4>
+            <h1 class="">blog</h1>
 {% for post in site.posts %}
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
