@@ -29,7 +29,7 @@ CSS Frameworks have popularized the Top Navbar design that appears in various fo
 
 Sticky Navbars are one form of Top Navbars that is either fixed to the top of the viewport, or soon becomes fixed to the viewport once the header is scrolled out of view. This provides a better User Experience if web pages exceed an average length in height. CSS Tricks utilizes a Slide-out Top Navbar displaying the different categories of content with icons and text. 
 
-![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+![Top Navbar](../assets/top-navbar.png){:class="img-responsive"}
 
 ****
 
