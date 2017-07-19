@@ -39,7 +39,7 @@ Search Forms are text input fields coupled with a submit button which directs us
 
 ESPN utilizes a magnifying glass icon to represent their Search Form with the text input field hidden until the icon is clicked. Once the icon is clicked, then the text input field is revealed. Once the text input field is revealed, an X close icon is also revealed at the same time to allow users to collapse the text input field. Consider implementing a Search Form for larger websites. 
 
-![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+![ESPN Search Form]({{"../assets/search-form.jpeg" | relative_url}}){:class="img-responsive"}
 
 ****
 
@@ -49,7 +49,7 @@ Internal Navigation Links are great for long-scrolling websites. If the website 
 
 This feature should not draw much attention away from the text content in terms of its design and importance. A simple list of links is a great, yet simple solution. This design can be viewed on almost every Wikipedia webpage. Amazon uses this design to display user’s product reviews by star-rating. This is also great for online books and longer blog posts. 
 
-![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+![Amazon Reviews Internal Links]({{"../assets/internal-links.jpeg" | relative_url}}){:class="img-responsive"}
 
 ****
 
@@ -59,7 +59,7 @@ If you have a website with a large catalog of items that should be easily access
 
 The Vertical Navigation Menu should be displayed on either the left or the right side. Now there is room to list plenty of links and even identify different sections of links. This UI design appears in a variety of forms including Slide-out Navigation Menus and in combination with the Top Navbar, especially for mobile designs. Slide-out Navigation Menus can provide additional viewport space that would otherwise be consumed by a navigation menu in some form. 
 
-![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+![Vertical Navigation Menu]({{"../assets/vertical-menu.jpg" | relative_url}}){:class="img-responsive"}
 
 ****
 
@@ -67,14 +67,14 @@ The Vertical Navigation Menu should be displayed on either the left or the right
 
 Pagination is a form of secondary navigation. Numbered buttons are laid out horizontally to signify the number of pages that can be cycled through usually in a related section. Sometimes arrow icons are also provided for users to cycle forwards or backwards one web page at a time. Search Results webpages make great use of the Pagination design pattern. The Bootstrap Framework offers Pagination as one of the components in their framework. Below is how they appear by default.
 
-![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+![Pagination]({{"../assets/pagination.jpeg" | relative_url}}){:class="img-responsive"}
 
 ****
 
 #### Breadcrumbs
 Breadcrumbs are a form of secondary navigation. This type of navigation should be used in addition to other forms of navigation such as a Vertical Navigation Menu or a Navbar. When a website has multiple levels in its hierarchy, then they can help orient users as to what webpage they are viewing and where exactly they are in the website. The breadcrumbs not only tell users where they are at in the website, but also serve as links so that users could navigate backwards or up various levels instead of navigating endlessly. 
 
-![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+![Breadcrumbs]({{"../assets/breadcrumbs.jpeg" | relative_url}}){:class="img-responsive"}
 
 Breadcrumbs are usually formatted as a horizontal list of text links that appear just below or beside the main navigation. There are either symbols or icons between these text links to help denote the hierarchy. This form of navigation is great for blogs and other large websites, but can backfire on smaller websites because they can cause confusion for the users. Online stores such as Helly Hansen make great use of breadcrumb navigation to discern the various categories of products and where in the hierarchy they are on the website. You can easily browse for more Men’s products or go back to the Shop webpage or view the homepage. 
 
@@ -84,7 +84,7 @@ Breadcrumbs are usually formatted as a horizontal list of text links that appear
 
 Footer Navigation is another form of secondary navigation. As always, do not rely on a secondary form of navigation as your main form of navigation because it will not work. The Footer Navigation includes a list of links that would otherwise not fit in the website’s main navigation design or to repeat the main navigations links. This is useful if you utilize the navbar design pattern, but not the Sticky Navbar feature. If your web pages are long, then you should consider repeating your main navigation links in your Footer. The Footer Navigation is a sort of simplified site map which allows users to easily find sections of the website. Keep in mind that most websites have some sort of Footer Navigation, even if it is just text links that are the same as the main navigation. Consider what users are looking for when they visit the website. Check out the Marvel App website, in their footer displayed with a dark navy blue background, you can see their text links for their Footer Navigation is broken down by sections with titles. Icons are utilized as well for Social Media and for booking demos. 
 
-![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+![Marvel App Footer Navigation]({{"../assets/footer-nav.jpeg" | relative_url}}){:class="img-responsive"}
 
 ****
 
