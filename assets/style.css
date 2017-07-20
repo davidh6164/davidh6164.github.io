@@ -158,7 +158,6 @@ body,
     position: relative;
     height: 64px;
     width: auto;
-        left:-150px;
 	}
 	a .david-logo {
 		text-decoration: none;
@@ -750,6 +749,9 @@ footer h5 {
         }
         .desktop-navbar {
             display:inline;
+        }
+        .david-logo {
+        left:-150px;
         }
 		.david-nav,
 		.david-nav ul {
