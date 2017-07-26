@@ -2,9 +2,11 @@
 layout: default
 ---
 <section style="padding:100px 0px 0px 0px">
-    <h1>{{ page.title }}</h1>
+    <div style="padding: 0px 25px;">
+        <h1>{{ page.title }}</h1>
    
-        {{ content }}
+            {{ content }}
+    </div>
     <section class="row" style="background:#d9d9d9;padding: 25px;">
             <h3 style="color:#fff;text-shadow:1px 1px 3px rgba(0,0,0,0.5);">David Horn</h3>
         {% for post in site.posts %}
