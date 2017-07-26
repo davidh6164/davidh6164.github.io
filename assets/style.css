@@ -493,7 +493,11 @@ body,
 
 /* BLOG POST STYLING */
 .blog-post-content {
-    padding: 100px 0 0 0;
+    padding: 0;
+}
+.blog-post-content 
+ .blog-post-title {
+    padding: 25 35px;
 }
 .blog-post-content p {
     font-size: 1.1em;
