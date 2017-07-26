@@ -189,10 +189,12 @@ body,
     float:right;
     top:15px;
 }
-.desktop-navbar li {
+.desktop-navbar li, 
+ .desktop-navbar li a {
     float:left;
     padding: 0 10px;
     cursor:pointer;
+    display:inline-block;
 }
 .desktop-navbar a {
     color:#fff;
@@ -209,7 +211,7 @@ body,
 		height: 100vh;
 		position: absolute;
 		top: 0px;
-		left: 0px;
+        left: -1000px;
 		background: #1e1e1e;
 		transform: translateX(-1000px);
 		transition: all 0.5s ease-in-out;
@@ -222,7 +224,8 @@ body,
 		transform: translateX(-1000px)
 	}
 	.david-nav:target {
-		transform: translateX(0px)
+		transform: translateX(0px);
+        left: 0px;
 	}
 	.profile-pic {
 		height: 100px;
