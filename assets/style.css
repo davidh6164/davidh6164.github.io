@@ -526,8 +526,8 @@ body,
 .img-blog-post {
     display:block;
     position:relative;
-    width: 800px;
-    height: 550px;
+    width: auto;
+    height: auto;
     margin: 15px auto;
 }
 /* END BLOG POST STYLING */
@@ -870,6 +870,10 @@ footer h5 {
 		.blog-p {
 			font-size: 1.2em
 		}
+        .img-blog-post {
+            width: 700px;
+            height: 400px;
+        }
 		footer {
 			height: auto;
 			padding: 0;
