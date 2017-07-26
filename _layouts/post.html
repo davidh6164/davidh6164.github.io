@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<section style="padding:100px 0px 25px 0px">
-    <div style="padding: 0px 25px;">
+<section style="padding:100px 0px 0px 0px">
+    <div style="padding: 0px 25px 25px 25px;">
         <h1>{{ page.title }}</h1>
    
             {{ content }}
@@ -13,8 +13,6 @@ layout: default
                 <img src="../assets/david.jpg" class="profile-pic" alt="David Horn Profile Picture">
         </div>
             <h3 style="color:#fff;text-shadow:1px 1px 3px rgba(0,0,0,0.5);">David Horn</h3>
-        {% for post in site.posts %}
-            <h5>{{ post.date | date: date_format }}</h5>
-        {% endfor %}
+            <h5>{{ site.time | date_to_long_string }}</h5>
     </section>
 </section>
