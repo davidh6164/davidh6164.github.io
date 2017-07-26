@@ -523,6 +523,13 @@ body,
     margin-top: 25px;
     width: 90%;
 }
+.img-blog-post {
+    display:block;
+    position:relative;
+    width: 800px;
+    height: 550px;
+    margin: 15px auto;
+}
 /* END BLOG POST STYLING */
 
 
