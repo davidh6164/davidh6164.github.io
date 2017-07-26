@@ -492,6 +492,9 @@ body,
 
 
 /* BLOG POST STYLING */
+.blog-post-content {
+    padding: 100px 0 0 0;
+}
 .post {
     margin-top: 100px;
 }
@@ -840,7 +843,7 @@ footer h5 {
 			position: relative;
 			display: block;
 			margin: 15px auto;
-			font-size: 1.3em
+			font-size: 1.45em;
 		}
 		.about-icon {
 			height: 165px;
@@ -867,6 +870,9 @@ footer h5 {
 			font-size: 1.2em;
 			width: 700px
 		}
+        .blog-post-content {
+            font-size: 1.3em;
+        }
 		.blog-content .col-sm-9 {
 			padding: 5px 45px
 		}
