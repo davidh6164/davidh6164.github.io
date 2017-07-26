@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section style="padding:100px 0px 0px 0px">
+<section class="blog-post-content">
     <div style="padding: 0px 25px 25px 25px;">
         <h1>{{ page.title }}</h1>
    
@@ -10,7 +10,7 @@ layout: default
     </div>
     <section class="row" style="background:#d9d9d9;padding: 25px;">
         <div class="">
-                <img src="{{"/assets/david.jpg" | absolute_url}}" class="profile-pic" alt="David Horn Profile Picture">
+                <img src="{{"../assets/david.jpg" | relative_url}}" class="profile-pic" alt="David Horn Profile Picture">
         </div>
             <h3 style="color:#fff;text-shadow:1px 1px 3px rgba(0,0,0,0.5);">David Horn</h3>
             <h5>{{ site.time | date_to_long_string }}</h5>
