@@ -539,7 +539,7 @@ body,
 .img-blog-post {
     display:block;
     position:relative;
-    width: auto;
+    width: 300px;
     height: auto;
     margin: 15px auto;
 }
