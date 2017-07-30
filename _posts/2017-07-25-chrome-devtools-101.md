@@ -6,7 +6,7 @@ categories: July
 ---
 
 
-## Contents
+#### Contents
 * Color Picker
 * Inspect Animations
 * CSS & JS Coverage Tool
@@ -28,7 +28,7 @@ You can activate the Eyedropper tool to pick colors off of websites and local fi
 
 ![Top Navbar]({{"../assets/final-color-picker.png" | relative_url}}){:class="img-blog-post"}
 <div class="text-center blog-caption">
-Image of Los Chingones Website
+Los Chingones Website
 and Chrome DevTools Color Picker
 </div>
 
