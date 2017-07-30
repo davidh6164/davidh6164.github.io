@@ -154,7 +154,7 @@ body,
     height:50px;
 }
 	.david-logo {
-    z-index: 10;
+    z-index: 1;
     position: relative;
     height: 64px;
     width: auto;
@@ -492,12 +492,20 @@ body,
 
 
 /* BLOG POST STYLING */
-.blog-post-content {
+.blog-post-page {
     padding: 0;
 }
-.blog-post-content 
- .blog-post-title {
+.blog-post-content {
+    padding: 0px 50px 25px 50px;
+}
+ .blog-post-header {
     padding: 35px 55px;
+    background:linear-gradient(190deg,#ffc04d,#ff8d00);
+    height:350px;
+}
+.blog-post-header h1 {
+    position: relative;
+    top: 100px;
 }
 .blog-post-content p {
     font-size: 1.1em;
@@ -723,7 +731,8 @@ footer h5 {
             display:inline;
         }
         .david-logo {
-        left:-150px;
+            z-index: 10;
+            left:-80px;
         }
 		.david-nav,
 		.david-nav ul {
