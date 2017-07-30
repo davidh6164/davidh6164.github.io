@@ -38,8 +38,10 @@ and Chrome DevTools Color Picker
 Inspecting animations is simple with Chrome DevTools. You can open the animations panel which provides tools to slow down animations and see which CSS properties are being animated such as Opacity and Transform. Opening the Animations panel is as easy as clicking the  (three dot icon) above the Event Listeners option in the bottom right-hand corner. If you follow along the option pane that says Elements, Console, sources, network, timeline, Security, and Audits then you will find the icon at the far right. 
 
 ![Top Navbar]({{"../assets/final-inspect-animations.png" | relative_url}}){:class="img-blog-post"}
- [Image of Zenman Website (https://www.zenman.com/services/) 
-and Chrome DevTools Inspect Animations pane]
+<div class="text-center blog-caption">
+ Image of Zenman Website  
+and Chrome DevTools Inspect Animations pane
+</div>
 
 ****
 
@@ -47,8 +49,10 @@ and Chrome DevTools Inspect Animations pane]
 The CSS & JS Coverage Tool allows developers and designers to find used vs. unused CSS & JS code. If you are wondering how much code is used when users access and interact with your website, then you can use this tool to help reduce your asset’s file sizes. Start by opening up the Coverage pane near the Animations pane. Click on the   (three dot icon) left of the panes. Press record, refresh and then use the website as you would suspect a user would then pause the recording. There should be a table of resources with columns for URLs, file type, and a green/red color bar illustrating the amount of used and unused code. You can click on one of the URLs for the assets and reveal the file’s code in the Sources panel with an in-depth view of which lines of code executed. 
 
 ![Top Navbar]({{"../assets/final-coverage-tool.png" | relative_url}}){:class="img-blog-post"}
- [Image of Klik Denver Design Agency Website (http://klikdenver.com/) 
-And Chrome DevTools Sources panel and Coverage pane]
+<div class="text-center blog-caption">
+ Image of Klik Denver Design Agency Website
+and Chrome DevTools Sources panel and Coverage pane
+</div>
 
 ****
 
@@ -59,8 +63,10 @@ First, open Responsive Design Mode. Observe the small option menu icon to the ri
 
 
 ![Top Navbar]({{"../assets/final-capture-screenshot.png" | relative_url}}){:class="img-blog-post"}
- [Image of Vanamco Ghostlab Website (https://www.vanamco.com/ghostlab/) 
-And Chrome DevTools Capture Screenshot option]
+<div class="text-center blog-caption">
+ Image of Vanamco Ghostlab Website
+and Chrome DevTools Capture Screenshot option
+</div>
 
 ****
 
@@ -68,8 +74,10 @@ And Chrome DevTools Capture Screenshot option]
 There is a Visual Shadow Editor that appears in the Styles pane when either the CSS Box shadow or Text Shadow properties are used in a stylesheet. You can click the small box next to the property values to open the Visual Shadow Editor. The editor allows the changing of the X & Y offset values, Blur values, Spread values and the shadow direction (inset/outset).
 
 ![Top Navbar]({{"../assets/final-visual-shadow-editor.png" | relative_url}}){:class="img-blog-post"}
- [Image of Urban Ape (Portfolio of Jack Freeman) Website (http://urbanape.uk/) 
-And Chrome DevTools Visual Shadow Editor]
+<div class="text-center blog-caption">
+ Image of Urban Ape (Portfolio of Jack Freeman) Website 
+and Chrome DevTools Visual Shadow Editor
+</div>
 
 ****
 
@@ -77,8 +85,9 @@ And Chrome DevTools Visual Shadow Editor]
 Empty Cache and Hard Reload is a useful feature when updating a live website and you need the latest changes to be visible to you. This is a useful feature because browsers cache as much front end resources as possible such as JavaScript files, CSS stylesheets and images. The primary reasoning for browsers caching resources is to improve loading time for users. When changes are made to a live website, it is not immediately visible due in part due to caching. This can be troublesome if you are working on a live website, but can be remedied by using the Empty Cache and Hard Reload option which will clear the browser’s cache for a specific page. You can access this option by opening Chrome DevTools CTRL+SHIFT+i then right-clicking the Refresh icon in the browser. You should see a dropdown menu appear with three options. You will not be able to access these options without opening opening Chrome DevTools first. 
 
 ![Top Navbar]({{"../assets/final-clear-cache-reload.png" | relative_url}}){:class="img-blog-post"}
- [Image of Lexus Website (http://lexus.com/) 
-And Chrome DevTools Empty Cache & Hard Reload]
+<div class="text-center blog-caption">
+ Image of Lexus Website and Chrome DevTools Empty Cache & Hard Reload
+</div>
 
 ****
 
@@ -87,8 +96,9 @@ If there is a speed curve value (linear, ease-in, ease-out, ease-in-out, cubic-b
 
 
 ![Top Navbar]({{"../assets/final-easing-editor.png" | relative_url}}){:class="img-blog-post"}
- [Image of Machios Food Website (http://maschiofood.com/) 
-And Chrome DevTools Empty Cache & Hard Reload]
+<div class="text-center blog-caption">
+ Image of Machios Food Website and Chrome DevTools Empty Cache & Hard Reload
+</div>
 
 ****
 
