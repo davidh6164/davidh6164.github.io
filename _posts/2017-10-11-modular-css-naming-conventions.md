@@ -5,7 +5,6 @@ date:   2017-10-11 23:35:25 -0600
 categories: October
 ---
 
-<b>Published: October 11, 2017</b>
 
 #### Contents
 * Reusable Modules
