@@ -168,7 +168,8 @@ DataURI is another type of encoding that can encode in base64 format as well as 
 As with the base64 encoding, you are going to upload your images to an online encoding tool such as WebSemantic’s [DataURI tool](https://websemantics.uk/tools/image-to-data-uri-converter/). This is will also output a line of code which you can copy and paste into your img tag’s src attribute:
 
 {% highlight html linenos %}
-<img width="16" height="16" alt="social media icon" src="data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGo
+<img width="16" height="16" alt="social media icon" 
+src="data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGo
 lfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQedM8hBAD
 gUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlfrMQiB0UjIQA7"/>
