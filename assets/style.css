@@ -331,7 +331,7 @@ a .david-logo{text-decoration:none}
 .blog-post-content {
     padding:0px 50px 25px 50px
 }
-.blog-post-content h4 {
+.blog-post-content h4 #contents {
     margin-top: 250px;
     font-size: 1.65em;
 }
