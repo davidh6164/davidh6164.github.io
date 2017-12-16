@@ -332,10 +332,11 @@ a .david-logo{text-decoration:none}
     padding:0px 50px 25px 50px
 }
 .blog-post-content h4 {
+    margin-top: 250px;
     font-size: 1.65em;
 }
 .blog-post-content ul {
-    margin: 25px 0 25px 0;
+    margin: 10px 0 250px 0;
     font-size: 1.35em;
 }
 
