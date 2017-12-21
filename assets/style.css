@@ -415,6 +415,7 @@ a .david-logo{text-decoration:none}
 
 /* IMAGE COMPONENT CLASSES */
 .post-sm-4, .post-md-1, .post-md-2,
+  .post-md-4,
   .post-lg-1, .post-lg-2 { /* all images */
     display:block;
     position:relative;
@@ -431,6 +432,10 @@ a .david-logo{text-decoration:none}
 .post-md-2 { /* blog posts - med - landscape */
     height: 300px;
     width: 500px;
+}
+.post-md-4 { /* blog posts - md - long */
+    height: 200px;
+    width: 700px;
 }
 .post-lg-2 { /* blog posts - lg - landscape */
     height: 450px;
