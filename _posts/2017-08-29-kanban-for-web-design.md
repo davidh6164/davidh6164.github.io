@@ -62,7 +62,7 @@ Start by attaching a Pull Request to a Trello card. This can be accomplished by 
 
 Now Trello cards can be quickly identified for not having passed certain checks and are ultimately not completed or ready to launch. A commit may have some errors which may be overlooked until it becomes ready to launch. This feature makes these errors more visible.
 
-![Trello & Github Integration]({{"../assets/trello-github-integration.png" | relative_url}}){:class="post-md-2"}
+![Trello & Github Integration]({{"../assets/trello-github-integration.png" | relative_url}}){:class="post-md-1"}
 <div class="text-center blog-caption">
 Trello & Github Integration
 </div>
