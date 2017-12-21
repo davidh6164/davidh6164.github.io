@@ -68,7 +68,7 @@ If you have a website with a large catalog of items that should be easily access
 
 The Vertical Navigation Menu should be displayed on either the left or the right side. Now there is room to list plenty of links and even identify different sections of links. This UI design appears in a variety of forms including Slide-out Navigation Menus and in combination with the Top Navbar, especially for mobile designs. Slide-out Navigation Menus can provide additional viewport space that would otherwise be consumed by a navigation menu in some form. 
 
-![Vertical Navigation Menu]({{"../assets/vertical-menu.jpg" | relative_url}}){:class="post-lg-2"}
+![Vertical Navigation Menu]({{"../assets/vertical-menu.jpg" | relative_url}}){:class="post-md-2"}
 <div class="text-center blog-caption">
 Vertical navigation menu navigation pattern
 </div>
