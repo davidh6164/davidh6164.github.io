@@ -6,7 +6,7 @@ categories: May
 ---
 
 
-#### Published May 27, 2017
+#### Published May 27, 2017 by David Horn
 
 ## Contents
 * Combining CSS & JS Files

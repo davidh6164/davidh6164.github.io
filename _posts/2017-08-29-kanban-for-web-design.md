@@ -6,7 +6,10 @@ categories: August
 ---
 
 
-#### Contents
+#### Published August 29, 2017 by David Horn
+
+
+## Contents
 * Kanban for Web Design
 * Creating a Kanban
 * Create & Track Cards
@@ -81,4 +84,11 @@ Paws for Trello is a third-party desktop client that allows you to use [Trello o
 ## Conclusion
 Kanban complements a Web Designer’s workflow by streamlining and organizing tasks.This is because Kanban’s structure makes it easy to track and progress tasks to completion in an efficient manner. Simply setting a limit on the number of tasks that can be handled forces workers to accomplish tasks to completion before starting a new task which helps make Kanban work. Also, the widespread availability of Kanban software paired with the ability to integrate it with other software such as Github and Slack make Kanbans worth looking into. Do not forget that Kanbans can be built to meet the needs of specific teams or the needs of the entire team. Your Kanban board should match your own team’s process. If you draw on Kanban’s strengths then your team should be able to accomplish tasks more effectively. 
 
+****
 
+### More Blog Posts
+[Exploring Navigation Patterns]({% post_url 2017-07-18-exploring-navigation-patterns %})
+
+[Chrome DevTools 101]({% post_url 2017-07-25-chrome-devtools-101 %})
+
+[Bootstrap Column Ordering]({% post_url 2017-08-07-bootstrap-col-order %})

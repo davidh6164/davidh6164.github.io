@@ -6,12 +6,8 @@ categories: August
 ---
 
 
-#### Contents
-* Column Ordering
-* Column Hiding
+#### Published August 7, 2017 by David Horn
 
-
-****
 
 ## Introduction
 CSS Frameworks exist to ease the pain of web development and design such as browser inconsistencies, layout, slow production time, and responsiveness across all browsers and device sizes. Consider how Bootstrap utilizes normalize.css, respond.js, and HTML5Shiv polyfills and resets. [Normalize.css](http://necolas.github.io/normalize.css/) is a CSS reset that makes browsers render elements more consistently across all web browsers. [Respond.js](https://cdnjs.com/libraries/respond.js/) is a CSS media query polyfill for older web browser versions. HTML5Shiv is a polyfill which allows older versions of Internet Explorer to recognize unknown HTML5 elements and to allow CSS styles to be applied to these elements. Bootstrap is widely used and is very popular amongst web designers and developers because of its great solutions towards the complexities of web development and design. In this blog post, we are going to be taking an in-depth look at Bootstrap’s column ordering and hiding classes which are essential to building a clean responsive web design. In Bootstrap, column ordering allows web designers to change the order in which columns appear on different screen sizes. While column hiding allows designers to toggle the visibility of a column to help compliment the web design across multiple device sizes.
@@ -50,3 +46,12 @@ Column hiding in Bootstrap allows web designers to hide content by taking advant
 
 ## Conclusion
 Bootstrap’s Column Ordering and Hiding are two features that help create a better responsive web design. Even if you decide not to use the Bootstrap framework, these two features can be modified and adapted to your own project to improve on your website’s web design across all browsers and viewport sizes.  
+
+****
+
+### More Blog Posts
+[Modular CSS & Naming Conventions]({% post_url 2017-10-11-modular-css-naming-conventions %})
+
+[Understanding Git & VCS]({% post_url 2017-09-26-understanding-git-and-vcs %})
+
+[Exploring Navigation Patterns]({% post_url 2017-07-18-exploring-navigation-patterns %})

@@ -6,7 +6,7 @@ categories: May
 ---
 
 
-#### Published May 29, 2017
+#### Published May 29, 2017 by David Horn
 
 
 ## Contents

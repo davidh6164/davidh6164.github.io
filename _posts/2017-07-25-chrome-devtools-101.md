@@ -6,7 +6,10 @@ categories: July
 ---
 
 
-#### Contents
+#### Published July 25, 2017 by David Horn
+
+
+## Contents
 * Color Picker
 * Inspect Animations
 * CSS & JS Coverage Tool
@@ -105,7 +108,15 @@ If there is a speed curve value (linear, ease-in, ease-out, ease-in-out, cubic-b
 ## Conclusion
 Remember, there are many features and tools within Chrome DevTools.  The Google Chrome Browser allows designers to inspect and debug web designs effortlessly. Check out the Google Developer Documentation for additional information about DevTools. You should also check out DevTips(https://umaar.com/dev-tips/126-css-tracker/) which you can visit to read short posts about Chrome’s features. I hope this blog post covered some of the more basic tools and features intended for Web Designers. 
 
+****
 
+
+### More Blog Posts
+[Effective Kanban for Web Design]({% post_url 2017-08-29-kanban-for-web-design %})
+
+[Conditional Comments At A Glance]({% post_url 2017-12-21-conditional-comments %})
+
+[Modular CSS & Naming Conventions]({% post_url 2017-10-11-modular-css-naming-conventions %})
 
 
 

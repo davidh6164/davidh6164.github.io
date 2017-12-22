@@ -6,7 +6,10 @@ categories: July
 ---
 
 
-#### Contents
+#### Published July 18, 2017 by David Horn
+
+
+## Contents
 * Top Navbars (Horizontal Navbars)
 * Search Forms
 * Internal Navigation Links
@@ -110,6 +113,16 @@ Footer links navigation pattern - Marvel App
 
 ## Conclusion
 Navigation design patterns are the foundation to a website that incorporates a range of web pages. Design patterns offer layouts familiar to users that allow them to easily navigate a website. Websites tend to use more than one type of navigation design pattern. Consider mobile designs and the different patterns that help users navigate easily. A website might utilize the Top Navbar pattern for desktops and switch to a Vertical Navigation Menu pattern for mobile devices. In addition to this, the website would also utilize a Footer Navigation pattern. Giving users options and different ways to navigate through a website ensures more users can use the website and navigate easier.
+
+****
+
+
+### More Blog Posts
+[Modular CSS & Naming Conventions]({% post_url 2017-10-11-modular-css-naming-conventions %})
+
+[Understanding Git & VCS]({% post_url 2017-09-26-understanding-git-and-vcs %})
+
+[Bootstrap Column Ordering]({% post_url 2017-08-07-bootstrap-col-order %})
 
 
 

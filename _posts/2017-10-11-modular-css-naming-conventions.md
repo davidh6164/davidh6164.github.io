@@ -6,12 +6,8 @@ categories: October
 ---
 
 
-#### Contents
-* Reusable Modules
-* CSS Frameworks
+#### Published October 11, 2017 by David Horn
 
-
-****
 
 ## Introduction
 Imagine you are designing a website component like a navigation menu, a footer, or an image carousel. You know this will require several HTML tags and class attributes, but do you know what class names you are going to use? Would the class names make this particular website component reusable on other projects? Even if you know what class names you are going to use, you may not be familiar with CSS Naming Conventions. CSS naming can be very difficult and is fervently debated. As a result of such debate, several popular methodologies have emerged such as SMACSS, BEM, and OOCSS. This blog article is going to focus on a general modular approach to CSS naming which may help you improve your CSS naming conventions so that you may build reusable website components. 
@@ -95,5 +91,14 @@ Bootstrap’s documentation shows that the navigation menu website component is 
 
 ## Conclusion
 When thinking of names for your CSS classes, you should think of your HTML elements in terms of objects that are going to be styled to better suit their purpose. You should name your CSS classes in terms of what objects they are rather than most of their characteristics. If you are struggling for any ideas on how to properly name your CSS classes in a modular way, then you can refer to several different CSS framework’s documentation or you can refer to any of the naming methodologies such as SMACSS, BEM, and OOCSS as they dive deep into the subject of CSS naming conventions. Remember, taking a modular approach to CSS naming conventions can save you time in debugging and in future development by allowing you to reuse components that you are building. Modular class naming is not the only type of methodology, therefore if you did not like the modular approach for class naming conventions then there are other options that exist that you can explore. 
+
+****
+
+### More Blog Posts
+[Exploring Navigation Patterns]({% post_url 2017-07-18-exploring-navigation-patterns %})
+
+[Reducing HTTP Requests]({% post_url 2017-05-27-reducing-http-requests %})
+
+[Effective Kanban for Web Design]({% post_url 2017-08-29-kanban-for-web-design %})
 
 

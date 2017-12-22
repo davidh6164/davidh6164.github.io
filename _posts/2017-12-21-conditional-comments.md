@@ -6,7 +6,7 @@ categories: December
 ---
 
 
-#### Published December 21, 2017
+#### Published December 21, 2017 by David Horn
 
 ## Introduction
 Conditional comments are comments that are conditional based on the expression specified.  It is important to note that most browsers and their various versions do not support conditional comments in HTML, but Internet Explorer versions 9 and below will. Legacy browsers do not have full support of all the modern web features, therefore to offer support for these older browser versions we will utilize conditional stylesheets. As support for older browser versions fade away, you can easily remove the conditional comment to remove the code. 
