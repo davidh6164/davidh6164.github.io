@@ -464,7 +464,7 @@ a .david-logo{text-decoration:none}
 
 
 
-/* AUTHOR SECTION */
+/* AUTHOR COMPONENT */
 .author-section {
     background:#696969;
     margin-top: 150px;
@@ -480,6 +480,18 @@ a .david-logo{text-decoration:none}
     box-shadow: 2px 2px 2px rgba(50,50,50,0.65);
 }
 
+
+/* SEARCH COMPONENT */
+.results-container {
+    list-style: none;
+    font-size: 1.15em;
+    margin: 5px 0;
+}
+.search-input {
+    background: #dcdcdc;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(50,50,50,0.65);
+}
 
 
 
