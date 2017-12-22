@@ -503,8 +503,11 @@ a .david-logo{text-decoration:none}
     
     .banner-img{
         height:325px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
         background-image:url(about-me.jpeg);
-        background-size: contain;
+        background-size: cover;
     }
     
     .desktop-navbar{display:inline-block;float:right;}.david-logo{z-index:10;left:-80px}.david-nav, .david-nav ul{width:30vw}.david-nav{overflow-y:hidden}.landing-image{height:550px}.landing-overlay{bottom:35px}.landing-overlay .projects-p{margin:175px auto 0 auto;font-size:1.5em}.main-p{width:650px;font-size:1.3em}.browser-img{height:900px;width:500px}.browser-img-alt{height:650px;width:600px}.browser-img-alt2{height:500px;width:900px}.projects-heading{font-size:1.75em}.project-bff-heading,.project-bff-heading2{font-size:1.65em}.project-bff-p,.project-bff-p2{font-size:1.45em}.projects-heading{padding:5px 15px;margin:-15px 0 0 0;height:75px}.post-list{width:700px;margin-left:auto;margin-right:auto}.sticky-section-jump{position:fixed}footer{height:30vh}}@media all and (min-width: 52.5em){.david-nav, .david-nav ul{width:19.3333vw}.landing-overlay{height:95px}.landing-overlay h4{font-size:2em;padding:1px 0}.about-p{padding:10px;position:relative;display:block;margin:15px auto;font-size:1.45em}.about-icon{height:165px;width:165px;margin:45px auto 10px auto;position:relative}.work-icon{height:145px;width:145px;margin:20px auto 10px auto;position:relative}.projects-heading{padding:5px 15px;margin:-15px 0 0 0;height:80px}.projects-p{padding:10px 5px;position:relative;display:block;margin:15px auto;font-size:1.2em;width:700px}.blog-post-content p{font-size:1.3em}.blog-content .col-sm-9{padding:5px 45px}.blog-p{font-size:1.2em}.img-blog-post{width:500px;height:300px}footer{height:auto;padding:0}}
