@@ -462,6 +462,26 @@ a .david-logo{text-decoration:none}
 
 
 
+
+
+/* AUTHOR SECTION */
+.author-section {
+    background:#696969;
+    margin-top: 150px;
+    padding:10px 25px 25px 25px;
+    color:#FFF
+}
+.author-pic {
+    height: 94px;
+    width: 94px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 2px 2px 2px rgba(50,50,50,0.65);
+}
+
+
+
+
 .code-header{
     width:80%;
     position:relative;
