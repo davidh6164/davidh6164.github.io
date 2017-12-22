@@ -360,11 +360,11 @@ a .david-logo{text-decoration:none}
     padding:0px 50px 25px 50px
 }
 .blog-post-content #contents {
-    margin-top: 250px;
+    margin-top: 50px;
     font-size: 1.65em;
 }
 .blog-post-content ul {
-    margin: 10px 0 250px 0;
+    margin: 10px 0;
     font-size: 1.35em;
 }
 
