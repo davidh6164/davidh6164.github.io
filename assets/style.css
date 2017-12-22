@@ -444,6 +444,21 @@ a .david-logo{text-decoration:none}
 .img-center {
 
 }
+/* END IMAGE COMPONENT CLASSES */
+
+
+
+/* TABLE COMPONENT CLASSES */
+.data-table {
+    width: 90%;
+    margin: 0 auto;
+}
+.data-table td {
+    width: 50%;
+    text-align:center;
+    font-size: 1.25em;
+    color: #1e90ff;
+}
 
 
 
