@@ -6,7 +6,10 @@ categories: May
 ---
 
 
-#### Contents
+#### Published May 29, 2017
+
+
+## Contents
 * Browser Support
 * Fragment Identifiers
 * Default Jumping Behavior
@@ -18,19 +21,19 @@ categories: May
 
 ****
 
-#### Introduction
+## Introduction
 
 Psuedo-classes are great for targeting a certain aspect or state of an entire element. The :target pseudo-class is a great way to style HTML elements when they are called upon by using their ID. This is useful for a sliding navigation menu, image gallery, lightbox, and more. You can then optionally add some JavaScript to enhance the functionality of the code.
 
 ****
 
-#### Browser Support
+## Browser Support
 
 According to  [Can I Use](http://caniuse.com/#search=%3Atarget), the :target selector and other advanced CSS3 selectors are widely supported amongst the most popular web browsers and their various versions. This selector can add some progressive enhancement to your website because it adds some aesthetic appeal without having to be vital to the website’s design.
 
 ****
 
-#### Fragment Identifiers
+## Fragment Identifiers
 
 You can begin to utilize this particular pseudo-class with the help of hash URLs, or fragment identifiers. Fragment identifiers target a specific portion of the webpage which is an HTML element with an ID attribute value that matches the URL. A common instance is when a user clicks an anchor tag with a <b>href</b> attribute value that matches an HTML element’s ID attribute value:
 
@@ -42,7 +45,7 @@ You can begin to utilize this particular pseudo-class with the help of hash URLs
 
 ****
 
-#### Default Jumping Behavior
+## Default Jumping Behavior
 
 Normally the browser would scroll the page until the element is at the top of the browser window. This is the default jumping behavior for hash tag links in HTML. You cannot prevent this default behavior with CSS, but you can prevent this behavior using jQuery. Start by targeting all the hash tag links and prevent their default behavior using preventDefault then use pushState to change the URL to include the hash tag link at the end without the jumping behavior:
 
@@ -57,7 +60,7 @@ The original article can be found over at [CSS-Tricks]() titled "On :target" by 
 
 ****
 
-#### Lightbox
+## Lightbox
 
 Lightboxes in web design can be described as a large image with a dark background for the purpose of enlarging a thumbnail or smaller image and darkening the background to increase the visibility for users when they interact with the image. Lightboxes are not limited to images but can include videos as well. In the past, these had to be created with JavaScript and was popularized by JavaScript libraries that specialized in these features, but with :target you can hide the lightbox container by default and then call it into view or change its current state when it is called upon with a hash tag link.
 
@@ -95,7 +98,7 @@ You can view my [CSS-only Lightbox](https://codepen.io/davidh6164/pen/WjpyMr) Co
 
 ****
 
-#### Image Gallery
+## Image Gallery
 
 The image gallery design is similar to the other :target hacks. The CSS property values we will be changing for the Image Gallery include the offset and transform-translate properties.
 
@@ -173,7 +176,7 @@ You can view my [CSS-only Image Gallery](https://codepen.io/davidh6164/pen/YVZPv
 
 ****
 
-#### Sliding Navigation Menu
+## Sliding Navigation Menu
 
 A sliding navigation menu is a great feature to remove the navigation portion of the website from the view until the user is ready for the navigation to appear. This is beneficial when viewing a website on a mobile device, because of the limited size of the browser window. You provide can provide a better design and increase interactivity from your users with features like this.
 
@@ -239,18 +242,31 @@ You can view my [CSS Sliding Navigation Menu](https://codepen.io/davidh6164/pen/
 
 ****
 
-#### Yellow Fading Technique
+## Yellow Fading Technique
 
 Highlighting newly revealed content to a web page is a simple design feature that is wonderful in adding readability to a user's experience. A certain [37signals article](https://signalvnoise.com/archives/000558.php) pioneered a great design feature that highlights a recently added element of the webpage that has appeared dynamically. You can imitate this feature using :target, animation and @keyframes.
 
 ****
 
-#### Targeting All Elements
+## Targeting All Elements
 
 You can easily target all of the elements by using a universal selector that applies to all targeted elements. You do not have to use the universal selector * with :target. You only use :target.
 
-#### Conclusion
+
+****
+
+
+## Conclusion
 
 The :target selector can be used as a design hack to imitate interactivity that could previously only be provided by JavaScript. Some clever design hacks include a sliding navigation menu, image gallery, lightbox, highlighting revealed content and more. You can always add some JavaScript to enhance the functionality of the code.
+
+****
+
+### More Blog Posts
+[Understanding Git & VCS]({% post_url 2017-09-26-understanding-git-and-vcs %})
+
+[Modular CSS & Naming Conventions]({% post_url 2017-10-11-modular-css-naming-conventions %})
+
+[Conditional Comments At A Glance]({% post_url 2017-12-21-conditional-comments %})
 
 
