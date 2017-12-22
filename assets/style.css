@@ -482,6 +482,10 @@ a .david-logo{text-decoration:none}
 
 
 /* SEARCH COMPONENT */
+.search-label {
+    font-size: 1.4em;
+    display:inline;
+}
 .results-container {
     list-style: none;
     font-size: 1.15em;
