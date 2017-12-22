@@ -5,7 +5,10 @@ date:   2017-05-27 23:35:25 -0600
 categories: May
 ---
 
-#### Contents
+
+#### Published May 27, 2017
+
+## Contents
 * Combining CSS & JS Files
 * Using a CDN (Content Delivery Network)
 * Avoiding Bad Requests
@@ -18,7 +21,7 @@ categories: May
 
 ****
 
-#### Introduction
+## Introduction
 
 The essential steps for a web page being displayed is important to understand how HTTP requests work and why reducing them may help increase your website’s loading speed. What are the steps for a web page being displayed? The basic steps include: request, response, building and rendering.
 
@@ -31,7 +34,7 @@ All of these steps have separate components and go into more detail, but this is
 
 ****
 
-#### Combining CSS & JS Files
+## Combining CSS & JS Files
 
 The best way to utilize CSS is to use it in an external stylesheet called by the link tag in HTML. You should avoid inline CSS, @import rule and using the style attribute in HTML when add CSS code to your HTML documents due to security reasons and increased web page load time. 
 
@@ -51,18 +54,18 @@ The same can be said for JS files, just use the example above switching out CSS 
 
 ****
 
-#### Using a CDN (Content Delivery Network)
+## Using a CDN (Content Delivery Network)
 A Content Delivery Network is a series of web servers spread across a wide geographical area that can serve up your website’s assets faster to your users than your web server could. Loading your website’s assets from servers closer to your users is the main reason why those assets will load faster. This is useful when using frameworks and libraries as well such as Bootstrap and jQuery. Smaller websites won’t find much use for exporting most of their web assets to a CDN, but larger websites that handle lots of data will surely benefit. 
 
 ****
 
-#### Avoiding Bad Requests
+## Avoiding Bad Requests
 
 Within your HTML or CSS files you might notice a request for an asset or web page that does not exist. When the request is made for one of these that does not exist, then the browser wastes time checking to load these resources which it cannot successfully load. These failed requests by your browser will return the HTTP 404 Not Found Error if it is an entire web page that was trying to be viewed.The number of bad requests will slow down your web page loading speed. There is an easy way to check for any bad requests, and that is using the [Varvy pagespeed online tool](https://varvy.com/pagespeed/) to search for these bad requests. 
 
 ****
 
-#### Using Image Sprites
+## Using Image Sprites
 
 If you have multiple small images being used frequently in your website’s design, your browser is downloading them individually as six different HTTP requests. You can combine this into one request using image sprites. The image sprite can easily be created with any image editor program or by using Sprite Cow. For my image sprite, I am using 144px width by 132px height icons which I will combine along the vertical axis. The image sprite should by 864px width by 132px height. 
 
@@ -133,18 +136,18 @@ Using background-position you can show any portion the image sprite, you can alt
 
 Here is a simple [Codepen project to illustrate the code](https://codepen.io/davidh6164/pen/WOXrbd)
 
-#### Sprite Cow
+## Sprite Cow
 Sprite Cow will take your uploaded image sprite and will display code of your selections for icons. The output code will include height, width and background-position values. I recommend you check out Sprite Cow because it will minimize the effort you will need to put forward to successfully use image sprites. Click on the Show Example button if you would like to test how it works. CSS Tricks has a [great video](https://css-tricks.com/video-screencasts/105-using-spritecow/) which shows how to use Sprite Cow, step by step. 
 
 ****
 
-#### Web Font Implementation
+## Web Font Implementation
 
 When adding additional fonts to your website it would be ideal to host the font yourself, but another option is to use third-party hosts for fonts such as Adobe’s Typekit or Google Fonts which is a free service. If you wanted a wider variety of fonts and want to host the fonts yourself you could also check out Font Squirrel. Self-hosting the fonts requires having the font files on your web server while using third-party fonts involves calling for the font files from a third-party web server which could have potential downsides. Some third-party fonts offer their services for free while others require either a payment or subscription. When using third-party fonts its best to keep the total number of fonts to a minimum. 
 
 ****
 
-#### Base64 Encoding Images
+## Base64 Encoding Images
 
 Base64 encoded images are images that are turned into code recognizable by HTML. This is great for smaller images that would require additional HTTP requests. This will increase your web page loading speed by reducing your total amount of requests. By default, base64 images are not indexed by Google and other search engines. You can index an image separately using OpenGraph meta tags, but there are some images that only serve aesthetic purposes and would be great to encode from png or jpeg to base64. Here is an example of using OpenGraph meta tags for indexing an image:
 
@@ -161,7 +164,7 @@ Don’t forget to base64 encode smaller images only, if you try to encode larger
 
 ****
 
-#### DataURI Encoding
+## DataURI Encoding
 
 DataURI is another type of encoding that can encode in base64 format as well as ASCII and UTF-8 formats. From what I have read, images must be in base64 format if it is going to be encoded. As with base64 encoding its best to encode small images such as icons only as this can bloat the file size of your HTML documents. 
 
@@ -178,7 +181,7 @@ gUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlfrMQiB0UjIQA7"/>
 
 ****
 
-#### Using SVG
+## Using SVG
 
 There are several different ways to implement SVGs onto your website. You can use .svg format images or you can use inline SVG code in place of of an img tag. The SVG format is great for website logos. If you decide to use SVG as an image, you should not base64 encode them because it will be render blocking. Here is an example of using SVG as an image:
 
@@ -206,7 +209,7 @@ The SVG code that these image editors produce is not optimized and should be opt
 
 ****
 
-#### Conclusion
+## Conclusion
 
 Complex and detailed photos are best suited for JPEG format as base64 encoding or inline SVG code will really bloat your HTML documents in an attempt to save HTTP requests which ultimately fails to improve your web pages loading speed. Base64 and Inline SVG are great for small icons and logos as they retain resolution and file size, but saves an HTTP request. Also, remember that Inline SVG and Base64 encoded images do not get cached by the browser and do not get indexed by search engines.
 
