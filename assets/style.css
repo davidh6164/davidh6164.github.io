@@ -451,7 +451,7 @@ a .david-logo{text-decoration:none}
 /* TABLE COMPONENT CLASSES */
 .data-table {
     width: 90%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .data-table td {
     width: 50%;
