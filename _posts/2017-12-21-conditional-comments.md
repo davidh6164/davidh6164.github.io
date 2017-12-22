@@ -24,7 +24,7 @@ Conditional stylesheets are going to be placed in the <head> tag and look like t
 
 In the example above, support for IE includes all versions up to 9. If you want to target a specific version you can specify after IE. You can use various operators to produce a more specific or generalized conditional comment:
 
-<table>
+<table class="data-table">
  <tr>
   <td>lt</td>
   <td>less than</td>
