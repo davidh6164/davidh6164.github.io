@@ -6,8 +6,7 @@ title: Blog
 
 <div class="container-fluid">
     
-    <section class="row" style="height:1000px;padding:100px 50px">
-        <div class="col-xs-12">
+<section class="row" style="padding:100px 50px">
             <h1 class="text-center">Blog</h1>
             
 <div class="col-sm-4">
@@ -20,8 +19,11 @@ title: Blog
     <ul class="results-container" id="results-container"></ul>
   </div>
 </div>
-
             
+</section>
+
+<section class="row" style="padding:100px 50px">
+<div class="col-xs-12">       
 {% for post in site.posts %}
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <time style="padding-left: 25px;position:relative;top:-15px">{{ post.date | date: "%b %-d, %Y" }}</time>
@@ -29,7 +31,8 @@ title: Blog
 
 <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
         </div>
-    </section>
+
+</section>
     
     
 <!-- search-script.js -->
