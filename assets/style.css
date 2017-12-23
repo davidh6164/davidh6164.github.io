@@ -344,8 +344,8 @@ a .david-logo{text-decoration:none}
     margin:10px auto;
     left:0;
     right:0;
-    height:400px;
-    width:300px;
+    height:350px;
+    width:250px;
     z-index:10;
     cursor:pointer
 }
@@ -354,7 +354,18 @@ a .david-logo{text-decoration:none}
     padding: 15px 0;
     width: 75px;
 }
-.projects-card-overlay a, .projects-card-overlay a:hover, .projects-card-overlay a:active, .projects-card-overlay a:focus{text-decoration:none}.projects-card-overlay:hover,.projects-card-overlay:active,.projects-card-overlay:focus{opacity:1}.projects-card{height:400px;width:300px;margin:10px auto;display:block;position:relative;box-shadow:2px 2px 5px rgba(0,0,0,0.45);transition:all 0.35s ease-in-out}.projects-card:hover,.projects-card:active,.projects-card:focus{box-shadow:6px 6px 10px rgba(0,0,0,0.65);transform:translateY(-10px)}.projects-card-img{height:100%;width:100%;position:relative;display:block}.projects-title,.projects-detail{color:#fff;text-align:center;position:relative;font-weight:500}.projects-title{font-size:2em;top:100px}.projects-detail{top:125px}.projects-heading{padding:5px 15px;position:relative;display:block;margin:15px;text-align:left;color:#000;transition:all 0.4s ease-in-out}.projects-heading:nth-of-type(2){text-align:right}.projects-breadcrumb{font-size:1.35em;padding:15px;background:#333;color:#fff;text-shadow:1px 1px 1px #000, 1px 1px 1px #000;text-align:left;height:60px;top:0px;margin:0;position:relative}.project-bff-heading,.project-bff-heading2{color:#fff;font-weight:700;font-size:1.25em;padding:10px;text-shadow:1px 1px 2px rgba(50,50,50,0.35)}.project-bff-heading2{text-align:right}.project-bff-p,.project-bff-p2{color:#fff;font-size:1.1em;font-weight:700;padding:5px 20px}.project-bff-p2{text-align:right}.blog-post-page{padding:0}
+.projects-card-overlay a, .projects-card-overlay a:hover, .projects-card-overlay a:active, .projects-card-overlay a:focus{text-decoration:none}.projects-card-overlay:hover,.projects-card-overlay:active,.projects-card-overlay:focus{opacity:1}
+
+.projects-card{
+    height:350px;
+    width:250px;
+    margin:10px auto;
+    display:block;
+    position:relative;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.45);
+    transition:all 0.35s ease-in-out
+}
+.projects-card:hover,.projects-card:active,.projects-card:focus{box-shadow:6px 6px 10px rgba(0,0,0,0.65);transform:translateY(-10px)}.projects-card-img{height:100%;width:100%;position:relative;display:block}.projects-title,.projects-detail{color:#fff;text-align:center;position:relative;font-weight:500}.projects-title{font-size:2em;top:100px}.projects-detail{top:125px}.projects-heading{padding:5px 15px;position:relative;display:block;margin:15px;text-align:left;color:#000;transition:all 0.4s ease-in-out}.projects-heading:nth-of-type(2){text-align:right}.projects-breadcrumb{font-size:1.35em;padding:15px;background:#333;color:#fff;text-shadow:1px 1px 1px #000, 1px 1px 1px #000;text-align:left;height:60px;top:0px;margin:0;position:relative}.project-bff-heading,.project-bff-heading2{color:#fff;font-weight:700;font-size:1.25em;padding:10px;text-shadow:1px 1px 2px rgba(50,50,50,0.35)}.project-bff-heading2{text-align:right}.project-bff-p,.project-bff-p2{color:#fff;font-size:1.1em;font-weight:700;padding:5px 20px}.project-bff-p2{text-align:right}.blog-post-page{padding:0}
 
 .blog-post-content {
     padding:0px 50px 25px 50px
@@ -534,4 +545,7 @@ a .david-logo{text-decoration:none}
         background-size: cover;
     }
     
-    .desktop-navbar{display:inline-block;float:right;}.david-logo{z-index:10;left:-80px}.david-nav, .david-nav ul{width:30vw}.david-nav{overflow-y:hidden}.landing-image{height:550px}.landing-overlay{bottom:35px}.landing-overlay .projects-p{margin:175px auto 0 auto;font-size:1.5em}.main-p{width:650px;font-size:1.3em}.browser-img{height:900px;width:500px}.browser-img-alt{height:650px;width:600px}.browser-img-alt2{height:500px;width:900px}.projects-heading{font-size:1.75em}.project-bff-heading,.project-bff-heading2{font-size:1.65em}.project-bff-p,.project-bff-p2{font-size:1.45em}.projects-heading{padding:5px 15px;margin:-15px 0 0 0;height:75px}.post-list{width:700px;margin-left:auto;margin-right:auto}.sticky-section-jump{position:fixed}footer{height:30vh}}@media all and (min-width: 52.5em){.david-nav, .david-nav ul{width:19.3333vw}.landing-overlay{height:95px}.landing-overlay h4{font-size:2em;padding:1px 0}.about-p{padding:10px;position:relative;display:block;margin:15px auto;font-size:1.45em}.about-icon{height:165px;width:165px;margin:45px auto 10px auto;position:relative}.work-icon{height:145px;width:145px;margin:20px auto 10px auto;position:relative}.projects-heading{padding:5px 15px;margin:-15px 0 0 0;height:80px}.projects-p{padding:10px 5px;position:relative;display:block;margin:15px auto;font-size:1.2em;width:700px}.blog-post-content p{font-size:1.3em}.blog-content .col-sm-9{padding:5px 45px}.blog-p{font-size:1.2em}.img-blog-post{width:500px;height:300px}footer{height:auto;padding:0}}
+    .desktop-navbar{display:inline-block;float:right;}.david-logo{z-index:10;left:-80px}.david-nav, .david-nav ul{width:30vw}.david-nav{overflow-y:hidden}.landing-image{height:550px}.landing-overlay{bottom:35px}.landing-overlay .projects-p{margin:175px auto 0 auto;font-size:1.5em}.main-p{width:650px;font-size:1.3em}.browser-img{height:900px;width:500px}.browser-img-alt{height:650px;width:600px}.browser-img-alt2{height:500px;width:900px}.projects-heading{font-size:1.75em}.project-bff-heading,.project-bff-heading2{font-size:1.65em}.project-bff-p,.project-bff-p2{font-size:1.45em}.projects-heading{padding:5px 15px;margin:-15px 0 0 0;height:75px}.post-list{width:700px;margin-left:auto;margin-right:auto}.sticky-section-jump{position:fixed}footer{height:30vh}}
+
+
+@media all and (min-width: 52.5em){.david-nav, .david-nav ul{width:19.3333vw}.landing-overlay{height:95px}.landing-overlay h4{font-size:2em;padding:1px 0}.about-p{padding:10px;position:relative;display:block;margin:15px auto;font-size:1.45em}.about-icon{height:165px;width:165px;margin:45px auto 10px auto;position:relative}.work-icon{height:145px;width:145px;margin:20px auto 10px auto;position:relative}.projects-heading{padding:5px 15px;margin:-15px 0 0 0;height:80px}.projects-p{padding:10px 5px;position:relative;display:block;margin:15px auto;font-size:1.2em;width:700px}.blog-post-content p{font-size:1.3em}.blog-content .col-sm-9{padding:5px 45px}.blog-p{font-size:1.2em}.img-blog-post{width:500px;height:300px}footer{height:auto;padding:0}}
