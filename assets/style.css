@@ -493,6 +493,9 @@ a .david-logo{text-decoration:none}
 .results-container {
     list-style: none;
     font-size: 1.15em;
+    margin: 15px 0;
+}
+.results-container li {
     margin: 5px 0;
 }
 .search-input {
