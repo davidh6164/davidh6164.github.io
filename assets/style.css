@@ -341,11 +341,11 @@ a .david-logo{text-decoration:none}
     opacity:0;
     transition:all 0.35s ease-in-out;
     position:absolute;
-    margin:10px auto;
+    margin:5px auto;
     left:0;
     right:0;
-    height:350px;
-    width:250px;
+    height:400px;
+    width:300px;
     z-index:10;
     cursor:pointer
 }
@@ -357,9 +357,9 @@ a .david-logo{text-decoration:none}
 .projects-card-overlay a, .projects-card-overlay a:hover, .projects-card-overlay a:active, .projects-card-overlay a:focus{text-decoration:none}.projects-card-overlay:hover,.projects-card-overlay:active,.projects-card-overlay:focus{opacity:1}
 
 .projects-card{
-    height:350px;
-    width:250px;
-    margin:10px auto;
+    height:400px;
+    width:300px;
+    margin:5px auto;
     display:block;
     position:relative;
     box-shadow:2px 2px 5px rgba(0,0,0,0.45);
