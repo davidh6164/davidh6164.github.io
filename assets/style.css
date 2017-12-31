@@ -325,11 +325,10 @@ code .gutter .lineno {
 .david-logo{
     position:relative;
     height:64px;
-    width:auto
+    width:auto;
+    left:-80px;
 }
-.david-logo-wrap{
 
-} 
 a .david-logo{text-decoration:none}
 .david-logo div{margin:10px 4px}
 .david-logo-text{font-family:sans-serif;color:#fff;position:absolute;font-size:0.95em;font-weight:900;text-transform:uppercase}.logo-sub-heading{top:20px;left:110px;font-size:0.85em;float:left;position:relative}.desktop-navbar{display:none}
@@ -617,8 +616,7 @@ a .david-logo{text-decoration:none}
         float:right;
     }
     .david-logo{
-        z-index:10;
-        left:0px
+        left:-80px
     }
     .david-nav, .david-nav ul{
         width:30vw
@@ -679,11 +677,11 @@ a .david-logo{text-decoration:none}
 
  /* tablet landscape, small desktop & up */
 @media all and (min-width: 60.5em) { 
-    .david-logo {
-        left:-80px;
-    }
-        .david-nav, .david-nav ul{
+    .david-nav, .david-nav ul{
         width:19.3333vw
+    }
+    .david-logo{
+        left:-80px
     }
     .landing-overlay{
         height:95px
