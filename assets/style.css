@@ -340,17 +340,30 @@ a .david-logo{text-decoration:none}
     float:right
 }
 
-.desktop-navbar li, .desktop-navbar li a{float:left;padding:0 10px;cursor:pointer;display:inline-block}.desktop-navbar a{color:#fff;transition:all 0.4s ease-in-out}.desktop-navbar a:hover, .desktop-navbar a:active, .desktop-navbar a:focus{color:#ff8d00}.david-nav, .david-nav ul{width:70vw}.david-nav{height:100vh;position:absolute;top:0px;left:-1000px;background:#1e1e1e;transform:translateX(-1000px);transition:all 0.5s ease-in-out;color:#fff;border-right:10px solid #ff8d00;box-shadow:inset -8px 0 12px rgba(0,0,0,0.45);overflow-x:hidden}.david-nav:not(:target){transform:translateX(-1000px)}.david-nav:target{transform:translateX(0px);left:0px}.profile-pic{height:100px;width:100px;margin:0 auto;top:-45px;position:relative;display:block;float:none;border-radius:50%;border:3px solid #f5f5f5;box-shadow:1px 1px 2px rgba(0, 0, 0, 0.55);background-size:100%}.david-nav .profile-pic{top:35px;left:15px}.david-nav ul{list-style-type:none;height:auto;margin:55px 0 0 -10px;position:relative;z-index:1;padding:0px}.david-nav li{padding:15px;border:1px solid rgba(225, 225, 225, 0.25);font-size:1.25em;box-shadow:inset 2px 2px 3px rgba(0, 0, 0, 0.33), inset -2px -2px 3px rgba(0, 0, 0, 0.33);width:100%;position:relative;transition:all 0.3s ease-in-out}.david-nav li:active, .david-nav li:hover, .david-nav li:focus{background:#ff8d00}.david-nav li:nth-of-type(2){border-top:0px}.david-nav li:nth-of-type(3){border-top:0px;border-bottom:0px}.david-nav a li{color:#fff;text-decoration:none;text-shadow:1px 1px 3px rgba(0, 0, 0, 0.35)}.david-nav a:active, .david-nav a:hover, .david-nav a:focus{text-decoration:none}.david-menu{text-transform:uppercase;float:right;margin:15px 10px 0 10px;color:#ff8d00}.menu-text{font-family:'Rubik Mono One',sans-serif;color:#ff8d00;margin:0 4px;text-shadow:1px 1px 2px rgba(0, 0, 0, 0.55)}.david-menu i{font-weight:700;font-size:1.2em}.david-nav .close{font-family:'Rubik Mono One',sans-serif;color:#fff;margin:15px;float:right;font-weight:700;font-size:2em;text-shadow:1px 1px 2px rgba(0,0,0,0.55)}.share-icon-group{width:250px;margin:25px auto 0 auto;float:none;display:block;position:relative}.share-icon{height:34px;width:34px;margin:0 25px;float:left;position:relative;transition:all 0.4s ease-in-out}.share-icon:hover,.share-icon:active,.share-icon:focus{filter:grayscale(0);cursor:pointer}.landing-image{height:300px;width:100%;background:linear-gradient(rgba(20, 20, 20, .75), rgba(20, 20, 20, .75)), url(../assets/fancy-pants.jpg) center no-repeat;background-size:100% 100%;position:relative}.landing-overlay p{padding:10px 0;margin:70px auto;text-align:left;font-size:1.1em;text-shadow:2px 2px 5px rgba(0, 0, 0, 0.75);color:#fff}.landing-overlay .share-group{margin-left:-15%;width:30%;position:absolute;left:55%}.landing-icon{color:#fff;font-size:2em;display:inline-block;width:auto;padding:25px;cursor:pointer;transition:all 0.4s ease-in-out}.landing-icon:hover,.landing-icon:active,.landing-icon:focus{color:#ff8d00}.focus-text{font-weight:700;color:#ff8d00}.page-heading{text-align:center;padding:5px 15px;position:relative;display:block;margin:5px auto;text-align:center}.main-p{padding:10px 25px;position:relative;display:block;margin:5px auto;width:300px;font-size:1.25em}
+.desktop-navbar li, .desktop-navbar li a{float:left;padding:0 10px;cursor:pointer;display:inline-block}.desktop-navbar a{color:#fff;transition:all 0.4s ease-in-out}.desktop-navbar a:hover, .desktop-navbar a:active, .desktop-navbar a:focus{color:#ff8d00}.david-nav, .david-nav ul{width:70vw}.david-nav{height:100vh;position:absolute;top:0px;left:-1000px;background:#1e1e1e;transform:translateX(-1000px);transition:all 0.5s ease-in-out;color:#fff;border-right:10px solid #ff8d00;box-shadow:inset -8px 0 12px rgba(0,0,0,0.45);overflow-x:hidden}.david-nav:not(:target){transform:translateX(-1000px)}.david-nav:target{transform:translateX(0px);left:0px}.profile-pic{height:100px;width:100px;margin:0 auto;top:-45px;position:relative;display:block;float:none;border-radius:50%;border:3px solid #f5f5f5;box-shadow:1px 1px 2px rgba(0, 0, 0, 0.55);background-size:100%}.david-nav .profile-pic{top:35px;left:15px}.david-nav ul{list-style-type:none;height:auto;margin:55px 0 0 -10px;position:relative;z-index:1;padding:0px}.david-nav li{padding:15px;border:1px solid rgba(225, 225, 225, 0.25);font-size:1.25em;box-shadow:inset 2px 2px 3px rgba(0, 0, 0, 0.33), inset -2px -2px 3px rgba(0, 0, 0, 0.33);width:100%;position:relative;transition:all 0.3s ease-in-out}.david-nav li:active, .david-nav li:hover, .david-nav li:focus{background:#ff8d00}.david-nav li:nth-of-type(2){border-top:0px}.david-nav li:nth-of-type(3){border-top:0px;border-bottom:0px}.david-nav a li{color:#fff;text-decoration:none;text-shadow:1px 1px 3px rgba(0, 0, 0, 0.35)}.david-nav a:active, .david-nav a:hover, .david-nav a:focus{text-decoration:none}.david-menu{text-transform:uppercase;float:right;margin:15px 10px 0 10px;color:#ff8d00}.menu-text{font-family:'Rubik Mono One',sans-serif;color:#ff8d00;margin:0 4px;text-shadow:1px 1px 2px rgba(0, 0, 0, 0.55)}.david-menu i{font-weight:700;font-size:1.2em}.david-nav .close{font-family:'Rubik Mono One',sans-serif;color:#fff;margin:15px;float:right;font-weight:700;font-size:2em;text-shadow:1px 1px 2px rgba(0,0,0,0.55)}.share-icon-group{width:250px;margin:25px auto 0 auto;float:none;display:block;position:relative}.share-icon{height:34px;width:34px;margin:0 25px;float:left;position:relative;transition:all 0.4s ease-in-out}.share-icon:hover,.share-icon:active,.share-icon:focus{filter:grayscale(0);cursor:pointer}.landing-image{height:300px;width:100%;background:linear-gradient(rgba(20, 20, 20, .75), rgba(20, 20, 20, .75)), url(../assets/fancy-pants.jpg) center no-repeat;background-size:100% 100%;position:relative}
+
+.landing-overlay .projects-p {
+    padding:10px 0;
+    margin:70px auto;
+    text-align:left;
+    font-size:1.1em;
+    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.75);
+    color:#fff;
+    line-height: 1.5;
+}
+.landing-overlay .share-group{margin-left:-15%;width:30%;position:absolute;left:55%}.landing-icon{color:#fff;font-size:2em;display:inline-block;width:auto;padding:25px;cursor:pointer;transition:all 0.4s ease-in-out}.landing-icon:hover,.landing-icon:active,.landing-icon:focus{color:#ff8d00}.focus-text{font-weight:700;color:#ff8d00}.page-heading{text-align:center;padding:5px 15px;position:relative;display:block;margin:5px auto;text-align:center}.main-p{padding:10px 25px;position:relative;display:block;margin:5px auto;width:300px;font-size:1.25em}
 
 .projects-card-overlay,.projects-card,.projects-card-img{
     border-radius:5px
+}
+.projects-card, .projects-card-overlay {
+        margin: 50px auto;
 }
 .projects-card-overlay{
     background-color:rgba(0,0,0,0.65);
     opacity:0;
     transition:all 0.35s ease-in-out;
     position:absolute;
-    margin:5px auto;
     left:0;
     right:0;
     height:400px;
@@ -368,7 +381,6 @@ a .david-logo{text-decoration:none}
 .projects-card{
     height:400px;
     width:300px;
-    margin:5px auto;
     display:block;
     position:relative;
     box-shadow:2px 2px 5px rgba(0,0,0,0.45);
@@ -558,11 +570,13 @@ a .david-logo{text-decoration:none}
 .contact-button{display:block;position:relative;height:100%;width:100%;background:linear-gradient(#cd7100,#ff8d00 10%);color:#fff;font-weight:700;font-size:2em;text-align:center;margin:3px 0 0 0;padding:25px;opacity:0.9;transition:all 0.35s ease-in-out}.contact-button:hover,.contact-button:active,.contact-button:focus{text-decoration:none;color:#fff;background:linear-gradient(#cd7100,#e77f00 15%);opacity:1}.shadow-row{box-shadow:0px 10px 7px -7px rgba(0,0,0,0.55)}.form-wrap{width:85%;display:block;position:relative;margin:25px auto}footer{background-color:#1e1e1e;color:white;font-weight:100;z-index:1000;font-size:1em;padding:0}footer .row:nth-of-type(2){background-color:#444;margin:0;padding:15px 15px 5px 15px;width:100%;height:auto;position:relative;bottom:0px}footer .text-links{margin:25px 0 25px -10px;text-align:center;font-size:1.1em;font-weight:700}footer .text-links a{text-decoration:none;color:#fff;margin:0 10px;transition:all 0.4s ease-in-out}footer .text-links a:hover, footer .text-links a:active, footer .text-links a:focus{color:#ff8d00}footer h5{margin:10px 0}.share-group2{margin-top:35px;margin-bottom:35px}.share-group2 .fa{font-size:1.5em;transition:all 0.3s ease-in-out;cursor:pointer}.share-group2 .fa:hover, .share-group2 .fa:active, .share-group2 .fa:focus{color:#ff8d00}
 
 
-/* media queries */
-  /* small tablets & up */
-/*@media all and (min-width: 40.5em) {*/
 
-    /* landscape smartphone & up */
+
+/* ------------- */
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+    /* landscape smartphones & up */
 @media all and (min-width: 29.5em){
     .david-nav, .david-nav ul{
         width:50vw
@@ -574,6 +588,7 @@ a .david-logo{text-decoration:none}
         width:500px
     }
 }
+    /* portrait tablets & up */
 @media all and (min-width: 40.5em){
     .mobile-hide{
         visibility:visible
@@ -611,7 +626,9 @@ a .david-logo{text-decoration:none}
     }
     .landing-overlay .projects-p{
         margin:175px auto 0 auto;
-        font-size:1.5em
+        font-size:1.5em;
+        padding: 10px 20px;
+        line-height: 1.1;
     }
     .main-p{
         width:650px;
@@ -628,9 +645,6 @@ a .david-logo{text-decoration:none}
     .browser-img-alt2{
         height:500px;
         width:900px
-    }
-    .projects-card, .projects-card-overlay {
-        margin: 50px auto;
     }
     .projects-heading{
         font-size:1.75em
@@ -692,12 +706,15 @@ a .david-logo{text-decoration:none}
         margin:-15px 0 0 0;height:80px
     }
     .projects-p{
-        padding:10px 5px;
+        padding:10px 15px;
         position:relative;
         display:block;
         margin:15px auto;
         font-size:1.2em;
         width:700px
+    }
+    .projects-card, .projects-card-overlay {
+        margin: 10px auto;
     }
     .blog-post-content p{
         font-size:1.3em
