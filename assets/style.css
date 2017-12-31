@@ -326,7 +326,6 @@ code .gutter .lineno {
     position:relative;
     height:64px;
     width:auto;
-    left:-80px;
 }
 
 a .david-logo{text-decoration:none}
@@ -356,7 +355,9 @@ a .david-logo{text-decoration:none}
     border-radius:5px
 }
 .projects-card, .projects-card-overlay {
-        margin: 50px auto;
+    margin: 50px auto;
+    height: 300px;
+    width: 200px;
 }
 .projects-card-overlay{
     background-color:rgba(0,0,0,0.65);
@@ -365,8 +366,6 @@ a .david-logo{text-decoration:none}
     position:absolute;
     left:0;
     right:0;
-    height:400px;
-    width:300px;
     z-index:10;
     cursor:pointer
 }
@@ -378,8 +377,6 @@ a .david-logo{text-decoration:none}
 .projects-card-overlay a, .projects-card-overlay a:hover, .projects-card-overlay a:active, .projects-card-overlay a:focus{text-decoration:none}.projects-card-overlay:hover,.projects-card-overlay:active,.projects-card-overlay:focus{opacity:1}
 
 .projects-card{
-    height:400px;
-    width:300px;
     display:block;
     position:relative;
     box-shadow:2px 2px 5px rgba(0,0,0,0.45);
@@ -633,7 +630,6 @@ a .david-logo{text-decoration:none}
     .landing-overlay .projects-p{
         margin:175px auto 0 auto;
         font-size:1.5em;
-        padding: 10px 20px;
     }
     .main-p{
         width:650px;
@@ -648,8 +644,8 @@ a .david-logo{text-decoration:none}
         width:600px
     }
     .browser-img-alt2{
-        height:500px;
-        width:900px
+        height:400px;
+        width:700px
     }
     .projects-heading{
         font-size:1.75em
@@ -679,9 +675,6 @@ a .david-logo{text-decoration:none}
 @media all and (min-width: 60.5em) { 
     .david-nav, .david-nav ul{
         width:19.3333vw
-    }
-    .david-logo{
-        left:-80px
     }
     .landing-overlay{
         height:95px
@@ -723,6 +716,8 @@ a .david-logo{text-decoration:none}
     }
     .projects-card, .projects-card-overlay {
         margin: 10px auto;
+        height: 400px;
+        width: 300px;
     }
     .blog-post-content p{
         font-size:1.3em
