@@ -346,6 +346,7 @@ code .gutter .lineno {
     -webkit-clip-path: polygon(0 59%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 59%, 100% 0%, 100% 100%, 0% 100%);
     background: #ff8d00;
+    top:-200px;
 }
 
 
