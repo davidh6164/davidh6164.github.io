@@ -43,6 +43,13 @@ Now, I will apply the counter-increment property to the custom list items with a
 Customized Counter Example 1
 </div>
 
+You can find all of my customized counter examples in my [Codepen profile](https://s.codepen.io/davidh6164/debug/RxVrKR/LDkmdVQKgZWA).
+
+![Custom List 2]({{"../assets/custom-counter-2.PNG" | relative_url}}){:class="post-md-2"}
+<div class="text-center blog-caption">
+Customized Counter Example 2
+</div>
+
 ****
 
 ## Browser Support
