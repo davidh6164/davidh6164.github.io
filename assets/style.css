@@ -468,8 +468,9 @@ a .david-logo{text-decoration:none}
     .projects-detail {
         font-size: 1.65em;
     }
-    .projects-p {
+    .projects-p-alt {
         font-size: 1.5em;
+        padding-right: 25px;
     }
 /* END WORK SECTION */
     
