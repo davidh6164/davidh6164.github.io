@@ -38,7 +38,7 @@ Now, I will apply the counter-increment property to the custom list items with a
 ****
 
 ## Examples
-![Custom List 1]({{"../assets/custom-counter-1.png" | relative_url}}){:class="post-lg-2"}
+![Custom List 1]({{"../assets/custom-counter-1.PNG" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Customized Counter Example 1
 </div>
