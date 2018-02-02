@@ -686,7 +686,14 @@ a .david-logo{text-decoration:none}
 
 
 
-.contact-button{display:block;position:relative;height:100%;width:100%;background:linear-gradient(#cd7100,#ff8d00 10%);color:#fff;font-weight:700;font-size:2em;text-align:center;margin:3px 0 0 0;padding:25px;opacity:0.9;transition:all 0.35s ease-in-out}.contact-button:hover,.contact-button:active,.contact-button:focus{text-decoration:none;color:#fff;background:linear-gradient(#cd7100,#e77f00 15%);opacity:1}.shadow-row{box-shadow:0px 10px 7px -7px rgba(0,0,0,0.55)}.form-wrap{width:85%;display:block;position:relative;margin:25px auto}footer{background-color:#1e1e1e;color:white;font-weight:100;z-index:1000;font-size:1em;padding:0}footer .row:nth-of-type(2){background-color:#444;margin:0;padding:15px 15px 5px 15px;width:100%;height:auto;position:relative;bottom:0px}footer .text-links{margin:25px 0 25px -10px;text-align:center;font-size:1.1em;font-weight:700}footer .text-links a{text-decoration:none;color:#fff;margin:0 10px;transition:all 0.4s ease-in-out}footer .text-links a:hover, footer .text-links a:active, footer .text-links a:focus{color:#ff8d00}footer h5{margin:10px 0}.share-group2{margin-top:35px;margin-bottom:35px}.share-group2 .fa{font-size:1.5em;transition:all 0.3s ease-in-out;cursor:pointer}.share-group2 .fa:hover, .share-group2 .fa:active, .share-group2 .fa:focus{color:#ff8d00}
+.contact-button{display:block;position:relative;height:100%;width:100%;background:linear-gradient(#cd7100,#ff8d00 10%);color:#fff;font-weight:700;font-size:2em;text-align:center;margin:3px 0 0 0;padding:25px;opacity:0.9;transition:all 0.35s ease-in-out}.contact-button:hover,.contact-button:active,.contact-button:focus{text-decoration:none;color:#fff;background:linear-gradient(#cd7100,#e77f00 15%);opacity:1}.shadow-row{box-shadow:0px 10px 7px -7px rgba(0,0,0,0.55)}.form-wrap{width:85%;display:block;position:relative;margin:25px auto}
+    
+    footer{
+        background-color:#1e1e1e;color:white;font-weight:100;z-index:1000;font-size:1em;padding:0
+    }
+    footer .row:nth-of-type(2){
+        background-color:#444;margin:0;padding:15px 15px 5px 15px;width:100%;height:auto;position:relative;bottom:0px
+    }footer .text-links{margin:25px 0 25px -10px;text-align:center;font-size:1.1em;font-weight:700}footer .text-links a{text-decoration:none;color:#fff;margin:0 10px;transition:all 0.4s ease-in-out}footer .text-links a:hover, footer .text-links a:active, footer .text-links a:focus{color:#ff8d00}footer h5{margin:10px 0}.share-group2{margin-top:35px;margin-bottom:35px}.share-group2 .fa{font-size:1.5em;transition:all 0.3s ease-in-out;cursor:pointer}.share-group2 .fa:hover, .share-group2 .fa:active, .share-group2 .fa:focus{color:#ff8d00}
 
 
 
@@ -748,7 +755,7 @@ a .david-logo{text-decoration:none}
         overflow-y:hidden
     }
     .landing-image{
-        height:550px
+        height:650px
     }
     .landing-overlay{
         bottom:35px
