@@ -38,7 +38,7 @@ Now, I will apply the counter-increment property to the custom list items with a
 ****
 
 ## Examples
-You can find all of my customized counter examples in my [Codepen profile](https://s.codepen.io/davidh6164/debug/RxVrKR/LDkmdVQKgZWA).
+You can find all of my customized counter examples in my [Codepen profile](https://s.codepen.io/davidh6164/debug/RxVrKR/LDkmdVQKgZWA). The example below reveals how simple it is to add a little CSS styling to the list-items ::before pseudo-element to make the counter unique. In this example I show how easy it is to create your own customized counter by using some color and manipulating the border-radius.
 
 
 ![Custom List 1]({{"../assets/custom-counter-1.PNG" | relative_url}}){:class="post-md-2"}
