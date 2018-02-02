@@ -46,10 +46,6 @@ You can find all of my customized counter examples in my [Codepen profile](https
 Customized Counter Example 1
 </div>
 
-![Custom List 2]({{"../assets/custom-counter-2.PNG" | relative_url}}){:class="post-md-2"}
-<div class="text-center blog-caption">
-Customized Counter Example 2
-</div>
 
 ****
 
