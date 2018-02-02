@@ -327,12 +327,14 @@ code .gutter .lineno {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 59%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 100% 59%, 0% 100%);
     background: #3d3d3d;
-    padding: 75px 0 275px 0;
+    height: 300px;
+    padding: 100px 0;
 }
 .col-clip2 {
     -webkit-clip-path: polygon(0 59%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 59%, 100% 0%, 100% 100%, 0% 100%);
     background: #ff8d00;
+    height: 300px;
     padding: 100px 0;
 }
 
