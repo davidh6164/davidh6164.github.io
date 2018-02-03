@@ -331,6 +331,9 @@ code .gutter .lineno {
 .clip-adjust3 {
     top: -600px;
 }
+.clip-adjust4 {
+    top: -800px;
+}
 .col-clipped {
     background: #3d3d3d;
 }
