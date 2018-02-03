@@ -353,6 +353,12 @@ code .gutter .lineno {
     background: #ff8d00;
     height: 300px;
 }
+.col-clip3 {
+    -webkit-clip-path: polygon(0 59%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 59%, 100% 0%, 100% 100%, 0% 100%);
+    background: #3d3d3d;
+    height: 300px;
+}
 
 
 
