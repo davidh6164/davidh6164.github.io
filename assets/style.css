@@ -337,9 +337,6 @@ code .gutter .lineno {
 .clip-adjust5 {
     top: -1000px;
 }
-.clip-adjust6 {
-    top: -1200px;
-}
 .col-clipped {
     background: #3d3d3d;
 }
@@ -694,7 +691,12 @@ a .david-logo{text-decoration:none}
 
 
 
-.contact-button{display:block;position:relative;height:100%;width:100%;background:linear-gradient(#cd7100,#ff8d00 10%);color:#fff;font-weight:700;font-size:2em;text-align:center;margin:3px 0 0 0;padding:25px;opacity:0.9;transition:all 0.35s ease-in-out}.contact-button:hover,.contact-button:active,.contact-button:focus{text-decoration:none;color:#fff;background:linear-gradient(#cd7100,#e77f00 15%);opacity:1}.shadow-row{box-shadow:0px 10px 7px -7px rgba(0,0,0,0.55)}.form-wrap{width:85%;display:block;position:relative;margin:25px auto}
+.contact-button{display:block;position:relative;height:100%;width:100%;background:linear-gradient(#cd7100,#ff8d00 10%);color:#fff;font-weight:700;font-size:2em;text-align:center;margin:3px 0 0 0;padding:25px;opacity:0.9;transition:all 0.35s ease-in-out}.contact-button:hover,.contact-button:active,.contact-button:focus{text-decoration:none;color:#fff;background:linear-gradient(#cd7100,#e77f00 15%);opacity:1}
+    
+    .shadow-row{
+        box-shadow:inset 0px 10px 7px -7px rgba(0,0,0,0.55)
+    }
+    .form-wrap{width:85%;display:block;position:relative;margin:25px auto}
     
     footer{
         background-color:#1e1e1e;color:white;font-weight:100;z-index:1000;font-size:1em;padding:0
