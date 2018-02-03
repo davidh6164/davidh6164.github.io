@@ -334,7 +334,7 @@ code .gutter .lineno {
 .col-clipped2 {
     background: #ff8d00;
 }
-.col-clip, .col-clip2 {
+.col-clip, .col-clip2, .col-clip3 {
     float: left;
     position: relative;
     width: 100%;
