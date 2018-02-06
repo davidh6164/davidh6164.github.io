@@ -527,12 +527,14 @@ a .david-logo{text-decoration:none}
 .projects-title{
     font-size:2em;
 }
+    .projects-title-alt {
+        color: #fff;
+    }
     .projects-detail {
         font-size: 1.65em;
     }
     .projects-p-alt {
         font-size: 1.5em;
-        padding-right: 25px;
     }
     .para-md {
         width: 90%;
