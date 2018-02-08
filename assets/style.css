@@ -323,7 +323,7 @@ code .gutter .lineno {
     overflow: hidden;
 }
 .container-clip {
-    height: 6395px;
+    height: 8275px;
 }
 .row{
     margin-right:-15px;
@@ -498,11 +498,8 @@ code .gutter .lineno {
 .clip-adjust4 {top: -805px;}
 .clip-adjust5 {top: -1005px;}
 .clip-adjust6 {top: -1205px;}
-.clip-pull {
-    left:-100px;
-}
-.clip-push {
-    left: 100px;
+.clip-pull, .clip-push {
+	margin: 25px auto;
 }
 .col-clipped {background: #3d3d3d;}
 .col-clipped2 {background: #ff8d00;}
@@ -973,6 +970,9 @@ a .david-logo{text-decoration:none}
 /* ------------- */
     /* landscape smartphones & up */
 @media all and (min-width: 29.5em){
+	  .container-clip {
+			  height: 6395px;
+	  }
     .david-nav, .david-nav ul{
         width:50vw
     }
@@ -1075,6 +1075,12 @@ a .david-logo{text-decoration:none}
 	  .container-clip {
 			  height: 5345px;
 	  }
+		.clip-pull {
+		    left:-100px;
+		}
+		.clip-push {
+		    left: 100px;
+		}
     .david-nav, .david-nav ul{
         width:19.3333vw
     }
