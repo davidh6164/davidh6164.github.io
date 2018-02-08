@@ -492,12 +492,12 @@ code .gutter .lineno {
 /* CLIP PATH LAYOUT */
 .clip-content {top: 200px;}
 .clip-content2 {bottom: 200px;}
-.clip-adjust {top: -55px;}
-.clip-adjust2 {top: -255px;}
-.clip-adjust3 {top: -455px;}
-.clip-adjust4 {top: -655px;}
-.clip-adjust5 {top: -855px;}
-.clip-adjust6 {top: -1055px;}
+.clip-adjust {top: -205px;}
+.clip-adjust2 {top: -405px;}
+.clip-adjust3 {top: -605px;}
+.clip-adjust4 {top: -805px;}
+.clip-adjust5 {top: -1005px;}
+.clip-adjust6 {top: -1205px;}
 .clip-pull {
     left:-100px;
 }
@@ -1075,13 +1075,6 @@ a .david-logo{text-decoration:none}
 	  .container-clip {
 			  height: 5345px;
 	  }
-		.clip-adjust {top: -205px;}
-		.clip-adjust2 {top: -405px;}
-		.clip-adjust3 {top: -605px;}
-		.clip-adjust4 {top: -805px;}
-		.clip-adjust5 {top: -1005px;}
-		.clip-adjust6 {top: -1205px;}
-		
     .david-nav, .david-nav ul{
         width:19.3333vw
     }
