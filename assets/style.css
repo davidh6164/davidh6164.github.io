@@ -873,6 +873,22 @@ a .david-logo{text-decoration:none}
 /* END IMAGE COMPONENT CLASSES */
 
 
+/* ANIMATIONS */
+.slide-In {
+	animation: slideIn 0.6s ease-in 2s 1;
+}
+@keyframes slideIn {
+	0% {
+		opacity: 0;
+		left: -1000px;
+	}
+	100% {
+		opacity: 1;
+		left: -100px;
+	}
+}
+
+
 
 /* TABLE COMPONENT CLASSES */
 .data-table {
