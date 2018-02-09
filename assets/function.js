@@ -14,9 +14,9 @@ $(window).scroll(function () {
     var $this = $(this),
         $top = $('html');
     if ($this.scrollTop() > 700) {
-       $head.addClass('slide-In');
+       $top.addClass('slide-In');
     } else {
-       $head.removeClass('slide-In');
+       $top.removeClass('slide-In');
        $(".slide-In").css("opacity","0");
     }
 });
