@@ -10,10 +10,6 @@ $(document).ready(function() {
 ClipPath('.col-clip3', '0 59%, 100% 0%, 100% 100%, 0% 100%');
 });
 
-$(document).ready(function() {
-  $(".slide-In").css("opacity","0");
-});
-
 $(window).scroll(function () {
     var $this = $(this),
         $top = $('html');
@@ -21,5 +17,6 @@ $(window).scroll(function () {
        $head.addClass('slide-In');
     } else {
        $head.removeClass('slide-In');
+       $(".slide-In").css("opacity","0");
     }
 });
