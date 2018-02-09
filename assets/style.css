@@ -323,7 +323,7 @@ code .gutter .lineno {
     overflow: hidden;
 }
 .container-clip {
-    height: 8275px;
+    height: 7975px;
 }
 .row{
     margin-right:-15px;
@@ -685,7 +685,7 @@ a .david-logo{text-decoration:none}
     padding: 20px 50px;
     margin:70px auto;
     text-align:left;
-    font-size:1.2em;
+    font-size:1.75em;
     text-shadow:2px 2px 5px rgba(0, 0, 0, 0.75);
     color:#fff;
     line-height: 1.5;
@@ -744,10 +744,10 @@ a .david-logo{text-decoration:none}
     }
     .para-lg {
         font-size: 1.65em;
-        padding: 55px 25px;
-        width: 80%;
+        padding: 55px 0px;
+        width: 100%;
         margin: 0 auto;
-        line-height: 2;
+        line-height: 1.20;
     }
 
 
@@ -1028,12 +1028,18 @@ a .david-logo{text-decoration:none}
     }
     .landing-overlay .projects-p{
         margin:175px auto 0 auto;
-        font-size:1.75em;
     }
     .main-p{
         width:650px;
         font-size:1.3em
     }
+		.para-lg {
+				font-size: 1.65em;
+				padding: 55px 25px;
+				width: 80%;
+				margin: 0 auto;
+				line-height: 2;
+		}
     .browser-img{
         height:900px;
         width:500px
