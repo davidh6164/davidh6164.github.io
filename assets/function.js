@@ -11,7 +11,7 @@ ClipPath('.col-clip3', '0 59%, 100% 0%, 100% 100%, 0% 100%');
 });
 
 $(document).ready(function() {
-var $animation_elements = $('.animation-element');
+var $animation_elements = $('.animation-slideLeft');
 var $window = $(window);
 
 function check_if_in_view() {
@@ -41,7 +41,7 @@ $window.trigger('scroll');
 });
 
 $(document).ready(function() {
-var $animation_elements = $('.animation-element');
+var $animation_elements = $('.animation-slideRight');
 var $window = $(window);
 
 function check_if_in_view() {
