@@ -16,8 +16,8 @@ $(document).ready(function(){
       $(".animation-element1").addClass("slide-In-Left");
     } else if ($(document).scrollTop() < 200) {
       $(".animation-element1").removeClass("slide-In-Left");
-      $(".animation-element2").addClass("slide-In-Left");
     } else if ($(document).scrollTop() > 1900) {
+      $(".animation-element1").addClass("slide-In-Left");
       $(".animation-element2").addClass("slide-In-Left");
     } else {
       $(".animation-element1").removeClass("slide-In-Left");
