@@ -14,10 +14,9 @@ $(document).ready(function(){
   $(window).scroll(function() {
     if ($(document).scrollTop() > 200) {
       $(".animation-element1").addClass("slide-In-Left");
-    } else {
+    } else if ($(document).scrollTop() < 200) {
       $(".animation-element1").removeClass("slide-In-Left");
-    }
-    if ($(document).scrollTop() > 1900) {
+    } else if ($(document).scrollTop() > 1900) {
       $(".animation-element2").addClass("slide-In-Left");
     } else {
       $(".animation-element2").removeClass("slide-In-Left");
