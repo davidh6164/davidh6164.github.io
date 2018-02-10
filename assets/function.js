@@ -10,16 +10,30 @@ $(document).ready(function() {
 ClipPath('.col-clip3', '0 59%, 100% 0%, 100% 100%, 0% 100%');
 });
 
-$(document).ready(function(){
-  var clipHeight = ($('body').height() - 500);
 
-  $(window).scroll(function() {
-    if ($(document).scrollTop() > clipHeight) {
-      $(".animation-element1").addClass("slide-In-Left");
-      $(".animation-element2").addClass("slide-In-Left");
+var $animation_elements = $('.animation-element');
+var $window = $(window);
+
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+
+  $.each($animation_elements, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+      $element.addClass('slide-In-Left');
     } else {
-      $(".animation-element1").removeClass("slide-In-Left");
-      $(".animation-element2").removeClass("slide-In-Left");
+      $element.removeClass('slide-In-Left');
     }
   });
-});
+}
+
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
