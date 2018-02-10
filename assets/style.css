@@ -880,10 +880,12 @@ a .david-logo{text-decoration:none}
 /* ANIMATION */
 .animation-element {
 	transform: translate(-1000px,0);
+	opacity: 0.5;
 	transition: all 0.5s ease-in-out;
 }
 .slide-In-Left {
 	transform: translate(0,0);
+	opacity:1;
 	transition: all 0.5s ease-in-out;
 }
 
