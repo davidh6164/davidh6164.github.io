@@ -27,9 +27,11 @@ function check_if_in_view() {
     //check to see if this current container is within viewport
     if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
-      $element.removeClass('slide-In-Left');
+      $('.animation-element').css('opacity','0');
+      $('.animation-element').css('translateX','-1000px');
     } else {
-      $element.addClass('slide-In-Left');
+      $('.animation-element').css('opacity','1');
+      $('.animation-element').css('translateX','0');
     }
   });
 }
