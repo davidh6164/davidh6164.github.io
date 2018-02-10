@@ -13,9 +13,9 @@ ClipPath('.col-clip3', '0 59%, 100% 0%, 100% 100%, 0% 100%');
 $(document).ready(function(){
   $(window).scroll(function() {
     if ($(document).scrollTop() > 200) {
-      $(".animation-element").addClass("slide-In-Left");
+      $(".animation-element1").addClass("slide-In-Left");
     } else {
-      $(".animation-element").removeClass("slide-In-Left");
+      $(".animation-element1").removeClass("slide-In-Left");
     }
   });
 });
