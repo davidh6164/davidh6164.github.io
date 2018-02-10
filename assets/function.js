@@ -19,3 +19,13 @@ $(document).ready(function(){
     }
   });
 });
+
+$(document).ready(function(){
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 1200) {
+      $(".animation-element2").addClass("slide-In-Left");
+    } else {
+      $(".animation-element2").removeClass("slide-In-Left");
+    }
+  });
+});
