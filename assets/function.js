@@ -10,7 +10,7 @@ $(document).ready(function() {
 ClipPath('.col-clip3', '0 59%, 100% 0%, 100% 100%, 0% 100%');
 });
 
-
+$(document).ready(function() {
 var $animation_elements = $('.animation-element');
 var $window = $(window);
 
@@ -37,3 +37,5 @@ function check_if_in_view() {
 
 $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
+
+});
