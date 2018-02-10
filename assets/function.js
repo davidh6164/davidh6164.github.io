@@ -11,10 +11,10 @@ ClipPath('.col-clip3', '0 59%, 100% 0%, 100% 100%, 0% 100%');
 });
 
 $(document).ready(function(){
+  var clipHeight = ($('body').height() - 500);
+
   $(window).scroll(function() {
-    if ($(document).scrollTop() > 200) {
-      $(".animation-element1").addClass("slide-In-Left");
-    } else if ($(document).scrollTop() > 1900) {
+    if ($(document).scrollTop() > clipHeight) {
       $(".animation-element1").addClass("slide-In-Left");
       $(".animation-element2").addClass("slide-In-Left");
     } else {
