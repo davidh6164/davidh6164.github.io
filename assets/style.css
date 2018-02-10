@@ -878,12 +878,17 @@ a .david-logo{text-decoration:none}
 
 
 /* ANIMATION */
-.animation-element {
+.animation-slideLeft {
 	transform: translate(-1000px,0);
 	opacity: 0.5;
 	transition: all 0.5s ease-in-out;
 }
-.slide-In-Left {
+.animation-slideRight {
+	transform: translate(1000px,0);
+	opacity: 0.5;
+	transition: all 0.5s ease-in-out;
+}
+.slide-In-Left, .slide-In-Right {
 	transform: translate(0,0);
 	opacity:1;
 	transition: all 0.5s ease-in-out;
