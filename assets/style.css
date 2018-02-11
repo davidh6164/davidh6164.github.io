@@ -731,6 +731,7 @@ a .david-logo{text-decoration:none}
 }
 .projects-title{
     font-size:2em;
+		margin: 5px 0;
 }
     .projects-title-alt {
         color: #fff;
