@@ -492,6 +492,7 @@ code .gutter .lineno {
 /* CLIP PATH LAYOUT */
 .clip-content {top: 200px;}
 .clip-content2 {bottom: 200px;}
+.clip-adjust-half { top: -105px;}
 .clip-adjust {top: -205px;}
 .clip-adjust2 {top: -405px;}
 .clip-adjust3 {top: -605px;}
