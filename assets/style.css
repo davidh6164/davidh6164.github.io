@@ -323,7 +323,7 @@ code .gutter .lineno {
     overflow: hidden;
 }
 .container-clip {
-    height: 7075px;
+    height: 6825px;
 }
 .row{
     margin-right:-15px;
@@ -995,7 +995,7 @@ a .david-logo{text-decoration:none}
     /* landscape smartphones & up */
 @media all and (min-width: 29.5em){
 	  .container-clip {
-			  height: 6345px;
+			  height: 6000px;
 	  }
     .david-nav, .david-nav ul{
         width:50vw
@@ -1103,7 +1103,7 @@ a .david-logo{text-decoration:none}
  /* tablet landscape, small desktop & up */
 @media all and (min-width: 60.5em) {
 	  .container-clip {
-			  height: 5345px;
+			  height: 5290px;
 	  }
 		.clip-pull {
 		    left:-100px;
