@@ -10,13 +10,13 @@ categories: February
 
 
 ## Contents
- *Basic Carousel
- *Carousel Captions & Overlay
- *Carousel Controls
- *Carousel Indicators
- *Carousel Timers
- *Multi-Item Carousels
- *Video Carousels
+ * Basic Carousel
+ * Carousel Captions & Overlay
+ * Carousel Controls
+ * Carousel Indicators
+ * Carousel Timers
+ * Multi-Item Carousels
+ * Video Carousels
 
 
 ****
@@ -46,13 +46,13 @@ Lonely Planet Homepage - Basic Carousel
 
 ****
 
-##CSS Carousel
+## CSS Carousel
 
 You can create a basic carousel without javascript, by utilizing the CSS pseudo-class of checked and the HTML input type of radio. When the carousel controls are clicked, the next set of carousel controls comes into view along with the next carousel item. You can use opacity and transform properties to create the transition animation between items.
 
 ****
 
-##JS Carousel
+## JS Carousel
 
 You can create a more complex carousel using javascript, which is better for improved transition animations or complex designs. There are plenty of frameworks and libraries which ease the pains of creating a beautiful carousel. Some examples include: [Slick.js](http://kenwheeler.github.io/slick/), [Flickity.js](https://flickity.metafizzy.co/), [Siema.js](https://pawelgrzybek.com/siema/), and [Glide.js](http://glide.jedrzejchalubek.com/).
 
