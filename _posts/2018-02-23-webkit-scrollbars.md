@@ -25,14 +25,14 @@ Now, customizing scrollbars can be achieved with WebKit vendor specific properti
 ****
 
 ## WebKit Pseudo-elements
-WebKit browsers are web browsers that utilize the WebKit browser engine. These browsers include Chrome, Safari, and Opera and they support the non-standard ::-webkit-scrollbar pseudo-element and all of its variations:
+WebKit browsers are web browsers that utilize the WebKit browser engine. These browsers include Chrome, Safari, and Opera and they support the non-standard <b>::-webkit-scrollbar</b> pseudo-element and all of its variations:
 
-* ::-webkit-scrollbar - targets the scrollbar itself.
-* ::-webkit-scrollbar-button - targets the scrollbar directional arrows.
-* ::-webkit-scrollbar-thumb - targets the draggable scrollbar handle.
-* ::-webkit-scrollbar-track - targets the scrollbar below the scrollbar thumb.
-* ::-webkit-scrollbar-corner - targets the bottom corner where both horizontal and vertical scrollbars meet.
-* ::-webkit-resizer - targets the draggable resizing handle that appears at the bottom of windows.
+* <b>::-webkit-scrollbar</b> - targets the scrollbar itself.
+* <b>::-webkit-scrollbar-button</b> - targets the scrollbar directional arrows.
+* <b>::-webkit-scrollbar-thumb</b> - targets the draggable scrollbar handle.
+* <b>::-webkit-scrollbar-track</b> - targets the scrollbar below the scrollbar thumb.
+* <b>::-webkit-scrollbar-corner</b> - targets the bottom corner where both horizontal and vertical scrollbars meet.
+* <b>::-webkit-resizer</b> - targets the draggable resizing handle that appears at the bottom of windows.
 
 These are the necessary pseudo-elements for targeting scrollbars which CSS properties can be applied to for customizing your own scrollbar design. There are also WebKit pseudo-classes that range from targeting horizontal scrollbars, vertical scrollbars, and different states of the scrollbar.
 
@@ -41,15 +41,15 @@ These are the necessary pseudo-elements for targeting scrollbars which CSS prope
 ## WebKit Pseudo-classes
 Scrollbar pseudo-classes can target scrollbars for styling under certain circumstances:
 
-* :horiztonal - targets any scrollbar that has a horizontal orientation.
-* :vertical - targets any scrollbar that has a vertical orientation.
-* :start - targets scrollbar track pieces and buttons before the thumb.
-* :end - targets scrollbar track pieces and buttons after the thumb.
-* :double-button - targets buttons and track pieces that are together at the same end of a scrollbar.
-* :single-button - targets buttons and track pieces that are alone at either end of the scrollbar.
-* :no-button - targets scrollbars that do not have buttons on either end.
-* :corner-present - targets scrollbars that have corners present.
-* :window-inactive - targets scrollbars on windows that are inactive or scrollbars that are not selected.
+* <b>:horiztonal</b> - targets any scrollbar that has a horizontal orientation.
+* <b>:vertical</b> - targets any scrollbar that has a vertical orientation.
+* <b>:start</b> - targets scrollbar track pieces and buttons before the thumb.
+* <b>:end</b> - targets scrollbar track pieces and buttons after the thumb.
+* <b>:double-button</b> - targets buttons and track pieces that are together at the same end of a scrollbar.
+* <b>:single-button</b> - targets buttons and track pieces that are alone at either end of the scrollbar.
+* <b>:no-button</b> - targets scrollbars that do not have buttons on either end.
+* <b>:corner-present</b> - targets scrollbars that have corners present.
+* <b>:window-inactive</b> - targets scrollbars on windows that are inactive or scrollbars that are not selected.
 
 ****
 
