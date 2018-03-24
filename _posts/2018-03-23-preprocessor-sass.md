@@ -16,11 +16,6 @@ categories: March
 * Setting Up & Using Compilers
 * Sass Frameworks
 * Basic Sass Features
-** Variables
-** Mixins
-** Nesting
-** Import
-** Extend
 
 
 ## What is a CSS Preprocessor?
