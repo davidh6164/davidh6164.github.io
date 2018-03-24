@@ -499,6 +499,7 @@ code .gutter .lineno {
 .clip-adjust4 {top: -805px;}
 .clip-adjust5 {top: -1005px;}
 .clip-adjust6 {top: -1205px;}
+
 .clip-pull, .clip-push {
 	margin: 25px auto;
 }
@@ -593,7 +594,7 @@ th{text-align:left}.table{width:100%;max-width:100%;margin-bottom:20px}.table>th
 }
     .main-btn {
         border:none;
-        margin:15px auto;
+        margin:25px auto;
         display:block;
         color:#fff;
         height:40px;
@@ -793,6 +794,9 @@ a .david-logo{text-decoration:none}
 .blog-post-content #contents {
     margin-top: 50px;
     font-size: 1.65em;
+}
+.blog-post-content h4 {
+    font-size: 1.45em;  
 }
 .blog-post-content ul {
     margin: 10px 0;
@@ -1060,9 +1064,9 @@ a .david-logo{text-decoration:none}
 		.para-lg {
 				font-size: 1.65em;
 				padding: 55px 25px;
-				width: 80%;
+				width: 70%;
 				margin: 0 auto;
-				line-height: 2;
+				line-height: 1.4;
 		}
     .browser-img{
         height:900px;
