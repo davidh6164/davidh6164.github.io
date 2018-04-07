@@ -6,7 +6,7 @@ categories: February
 ---
 
 
-#### Published February, 23 2018 by David Horn
+#### Published February 23 2018 by David Horn
 
 
 ## Contents
