@@ -6,7 +6,7 @@ categories: April
 ---
 
 
-### Published April 06 2018 by David Horn
+#### Published April 06 2018 by David Horn
 
 
 ## Contents
@@ -107,11 +107,11 @@ Image Blur on Fancred
 }
 {% endhighlight %}
 
-The next design pattern is all about fading the edges of an image to the background of your website, albeit won’t be with a CSS filter. You can apply an inset box-shadow that match the color of the edges of your image to fade the image to the background color of your website. If you take a look at the image below, you can notice how using the same color of the background, you can apply an inset box-shadow to fade the edges of an image seamlessly. 
+The next design pattern is all about fading the edges of an image to the background of your website, albeit won’t be with a CSS filter. You can apply an inset box-shadow that match the color of the edges of your image to fade the image to the background color of your website. If you take a look at the image below, you can notice how using the same color of the background, you can apply an inset box-shadow to fade the edges of an image seamlessly. The image below is from [Du Haihang’s Chinese New Year Celebration Project 2015](https://thefwa.com/cases/celebrating-chinese-new-year-2015).
 
 ![Chinese New Year Overlay]({{"../assets/overlay-img-4.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
-[Du Haihang’s Chinese New Year Celebration Project 2015](https://thefwa.com/cases/celebrating-chinese-new-year-2015) 
+Du Haihang’s Chinese New Year Celebration Project 2015 image fading
 </div>
 
 {% highlight css linenos %}
@@ -130,14 +130,14 @@ There are several reasons to add some sort of overlay to an image and improving 
 
 ![Otter Surfboards Overlay]({{"../assets/overlay-img-5.png" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
-[Otter Surfboards](https://ottersurfboards.co.uk/) text overlay
+Otter Surfboards text overlay
 </div>
 
-Placing large text on top of full-page images has become a common design pattern in web design as of lately and for good reason. You can showcase your branding in a landing page manner which envelopes the user in a more immersive visual experience. Compare the image above with the image below and notice the subtle differences between both seemingly similar designs. See how one is easier to read than the other, yet both provide equally creative and unique experiences.
+Placing large text on top of full-page images has become a common design pattern in web design as of lately and for good reason. You can showcase your branding in a landing page manner which envelopes the user in a more immersive visual experience. Compare the image above with the image below and notice the subtle differences between both seemingly similar designs. See how one is easier to read than the other, yet both provide equally creative and unique experiences. The image above is from [Otter Surfboards](https://ottersurfboards.co.uk/) and the image below is from [Aquatilis Expedition](https://www.awwwards.com/sites/aquatilis-expedition).
 
 ![Aquatilis Expedition Overlay]({{"../assets/overlay-img-6.png" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
-[Aquatilis Expedition](https://www.awwwards.com/sites/aquatilis-expedition) text overlay 
+Aquatilis Expedition text overlay 
 </div>
 
 ****
