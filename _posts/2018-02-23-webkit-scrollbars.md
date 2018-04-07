@@ -13,6 +13,7 @@ categories: February
 * WebKit Pseudo-elements
 * WebKit Pseudo-classes
 * jQuery Plugins
+* Codepen
 
 
 ## Introduction
@@ -55,6 +56,11 @@ Scrollbar pseudo-classes can target scrollbars for styling under certain circums
 
 ## jQuery Plugins
 jQuery plugins can be utilized to style scrollbars that will work across a wide range of web browsers. You can find various jQuery plugins hosted on Github or through the official jQuery plugin web page. There are plenty of options tailored for certain project needs like scrollMagic or slimScroll, go check out the [jQuery plugin](https://plugins.jquery.com/tag/scrollbar/) web page for all of the different plugin options.
+
+****
+
+### Codepen
+You can check out all the code and live examples of custom counters at [Codepen](https://codepen.io/davidh6164/).
 
 ****
 
