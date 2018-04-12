@@ -22,7 +22,7 @@ categories: April
 ## Reasons To Apply Overlays
 As web designers we all use images to enhance a design. Images are a great addition to websites, but the increasing reliance of images to create wonderful designs has left a decreasing amount of space for text content. It has become a balancing act to juggle both images and text. New innovations are emerging all the time with image overlays seeming to have fused both image and text content by placing text over an image.
 
-<div class="text-center">
+<div class="text-center blog-quote">
 “Good design is visually appealing on one device, great design is visually appealing on any device.”
 </div>
 
