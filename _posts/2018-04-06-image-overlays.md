@@ -150,7 +150,7 @@ Overlays come in all sorts of variations as they are only limited by your creati
 ****
 
 ## Codepen
-You can check out all the code and live examples of custom counters at [Codepen](https://codepen.io/davidh6164/).
+You can check out all the code and live examples of image overlays at [Codepen](https://codepen.io/davidh6164/).
 
 ****
 
