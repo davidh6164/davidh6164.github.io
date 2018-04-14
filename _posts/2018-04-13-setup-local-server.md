@@ -33,14 +33,14 @@ There are also some other leaner or simplified options including Meteor, Spring,
 ## Setting Up MAMP
 You could install and set up the separate parts of the MAMP stack, that is: Apache and MySQL or you could install a program that will do it for you. I prefer the latter approach for testing purposes unless I need complete server customization. I will only be covering how to install and set up [MAMP](https://www.mamp.info/en/downloads/). Once you download and install MAMP, you should start it up and see a screen similar to the image below.
 
-![MAMP Software]({{"../assets/mamp-setup.png" | relative_url}}){:class="post-lg-2"}
+![MAMP Software]({{"../assets/mamp-setup.PNG" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 MAMP website and software
 </div>
 
 Next, click on Start Servers and both the Apache and MySQL boxes should glow green. You can now click on Open Start Page and should be taken to a localhost URL. If you are not taken to a web page that looks similar to the image below then you may have an issue with your installation. If you are having issues with your installation then I recommend looking for a solution on [Stack Overflow](https://stackoverflow.com/questions/31307482/mamp-issues-server-not-found).
 
-![MAMP Installation]({{"../assets/mamp-installed.png" | relative_url}}){:class="post-lg-2"}
+![MAMP Installation]({{"../assets/mamp-installed.PNG" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 MAMP installed successfully
 </div>
