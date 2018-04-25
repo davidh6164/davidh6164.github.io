@@ -33,7 +33,7 @@ We all know that a web browser’s main function is to serve up content, but we 
 Different web browsers use different rendering engines to display content. Microsoft's Edge and Internet Explorer uses Trident, while Mozilla Firefox uses Gecko. Other popular browsers such as Safari use WebKit and Google Chrome uses Blink, a fork of WebKit. Opera uses Blink also uses the Blink rendering engine. Knowing that several types of browser rendering engines exist will help you understand how certain browsers offer varied CSS property support. No browser and their previous versions support all CSS3 properties, you will have to find out which properties are supported. I personally use [Can-I-Use](http://www.caniuse.com/) to figure out browser support. You may come across a property that requires a vendor prefix for browser support, we will discuss vendor prefixes in a different blog post.
 
 <div class="text-center blog-quote">
-Tip: Remember that you should always test your design across all of the major web browsers to ensure a consistent visual experience for all of your users. 
+Tip&#58; Remember that you should always test your design across all of the major web browsers to ensure a consistent visual experience for all of your users. 
 </div>
 
 ![Can I Use Browser Support]({{"../assets/browser-support.PNG" | relative_url}}){:class="post-lg-2"}
@@ -47,7 +47,7 @@ Can I Use offers browser support detection
 Rendering can be defined as the displaying of content for a user. When a website is rendered, you are seeing the results of the code files. There are several rendering modes which are based on doctype declaration. Your doctype declaration should be located at the very top of your HTML document. It is an instruction to the web browser about what version of HTML the page is written in and how to render the code. In HTML5, there is only one doctype declaration:
 
 
-
+&lt;!DOCTYPE html%gt;
 
 
 When a web browser chooses a rendering mode based on the doctype declaration it is using a process known as doctype sniffing. Depending on if there is a doctype or not will determine in what mode the browser renders the requested web page. The rendering modes were based off the introduction to W3C web standards. When web standards were first introduced, websites did not adhere to any standard and browsers had to adapt to accommodate both the web standard and any other existing websites that did not follow any standard. This was to prevent any existing website from breaking visually. 
@@ -59,7 +59,7 @@ Today, Quirks mode is not as big an issue as web browsers and web designers are 
 ****
 
 ## User-agent Stylesheets
-Browsers add their own default styling to basic HTML elements such as . These default styles added by the browser are known as user-agent styles. It is important to note that there are other origins of style properties including the user's stylesheet, and the web author's stylesheet, but we will not focus on the differences between the origins of styles in this blog post. Instead, we should take a look at the browser's default style sheet. 
+Browsers add their own default styling to basic HTML elements such as &lt;p&gt;, &lt;h1&gt;, &lt;button&gt;, and &lt;input&gt;. These default styles added by the browser are known as user-agent styles. It is important to note that there are other origins of style properties including the user's stylesheet, and the web author's stylesheet, but we will not focus on the differences between the origins of styles in this blog post. Instead, we should take a look at the browser's default style sheet. 
 
 We know that web browsers use different rendering engines, so we can safely assume that the browser's default style sheet may also be different. When you are testing your web design in various browsers, you should note these differences as different styles could be applied to different elements depending on the browser you are viewing the web design on. You can easily find user-agent styles using Chrome DevTools if you are unfamiliar with them or cannot easily distinguish which elements are being affected by what style properties. These properties may slightly alter your web design, but if it is not noticeably different then you could leave the properties alone. If you want to remove some of the user-agent styles then you could directly apply properties and values to the same elements using the same CSS declaration as the user-agent stylesheet. 
 
