@@ -47,7 +47,7 @@ Can I Use offers browser support detection
 Rendering can be defined as the displaying of content for a user. When a website is rendered, you are seeing the results of the code files. There are several rendering modes which are based on doctype declaration. Your doctype declaration should be located at the very top of your HTML document. It is an instruction to the web browser about what version of HTML the page is written in and how to render the code. In HTML5, there is only one doctype declaration:
 
 {% highlight html linenos %}
-<!DOCTYPE html>
+&lt;!DOCTYPE html%gt;
 {% endhighlight %}
 
 When a web browser chooses a rendering mode based on the doctype declaration it is using a process known as doctype sniffing. Depending on if there is a doctype or not will determine in what mode the browser renders the requested web page. The rendering modes were based off the introduction to W3C web standards. When web standards were first introduced, websites did not adhere to any standard and browsers had to adapt to accommodate both the web standard and any other existing websites that did not follow any standard. This was to prevent any existing website from breaking visually. 
