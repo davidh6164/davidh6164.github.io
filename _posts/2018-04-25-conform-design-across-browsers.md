@@ -76,7 +76,7 @@ When it comes to core attributes of the web today including user interface and c
 ****
 
 ### More Blog Posts
-[Exploring Navigation Patterns]({% post_url 2018-07-18-exploring-navigation-patterns %})
+[Exploring Navigation Patterns]({% post_url 2017-07-18-exploring-navigation-patterns %})
 
 [Setup MAMP for your Local Server Environment]({% post_url 2018-04-13-setup-local-server %})
 
