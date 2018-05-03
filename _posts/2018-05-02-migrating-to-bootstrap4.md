@@ -41,7 +41,8 @@ Some developers find an issue with using rem for font sizing because the values 
 
 ****
 
-## New Reset: Reboot [Formerly Normalize.css]
+## New Reset: Reboot 
+#### Formerly Normalize.css
 Resets in web development have been around for several years. Web developers like Eric Meyer, Paul Irish, and Nicholas Gallagher have all used and created stylesheets with the sole purpose of resetting all browsers to look the same. This was great as browsers had their own code specifications at the time which caused design problems. There was an issue with these early resets, they did not have any base styles which would be consistent across all browsers. Instead the early reset stylesheets started clean where each element had little to no differences such as heading elements and the like. Eventually, front-end developers started to create their own base styles on top of resets which solved the issue. Some of the most popular resets created and used are normalize.css, santize.css, and now reboot.css. 
 
 ![Normalize CSS Reset]({{"../assets/bs4-cards.PNG" | relative_url}}){:class="post-lg-2"}
