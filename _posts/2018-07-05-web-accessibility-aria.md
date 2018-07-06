@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Improving Web Accessibility using ARIA"
-date:   2018-07-05 23:35:25 -0600
+date:   2018-07-05 12:35:25 -0600
 categories: July
 ---
 
@@ -16,6 +16,7 @@ Broad scope introduction into web accessibility. Introduction to assistance tech
 * Assistive Technologies
 * ARIA
 
+##
 
 Web accessibility for people with disabilities is largely underdeveloped. This is probably due to the fact that it is not a requirement, according to United States law, for websites to have a greater range of accessibility with the exception of most government and school websites. Still, it leaves businesses with the option to provide features that will permit at least a significant portion of the world’s population to effectively navigate and pull information from a website. Websites should be only considered properly developed and designed when all of their intended audience can access their website, including people with disabilities. There is more than one type of disability that may affect individuals that could impair their ability to navigate the internet. Some of these disabilities include cognitive, visual, motor, and hearing disabilities. With these disabilities in mind, a web developer can make more conscious decisions that would affect a user-base. For example, when considering visually-impaired users, it is understandable that these users may be using screen readers. This makes text content invaluable for a website to convey their message as any visual design will fail to resonate with these users. This means alt attributes for img tags are a necessity because your visually-impaired users cannot see these images, but could still understand the message you are trying to convey with text describing the image being read through a screen reader. When considering ways to improve your website’s accessibility, one should follow the four principles of web accessbility: Perceivable, Operable, Understandable, and Robust (POUR). Perceivable in the sense that your users are able to gather information. Operable as in the website should work for a wide range of users with varying technologies to access a website. Understandable as in the various layers of information provided makes sense to your user-base. Robust as in it works on a wide range of software and hardware with minimal technical issues.
 
