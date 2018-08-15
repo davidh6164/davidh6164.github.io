@@ -1,9 +1,11 @@
 
-
+$(document).ready(function() {
 $('.col-clip').ClipPath('0 0, 100% 0%, 100% 59%, 0% 100%');
-$('.col-clip2').ClipPath('0 59%, 100% 0%, 100% 100%, 0% 100%');
-$('.col-clip3').ClipPath('0 59%, 100% 0%, 100% 100%, 0% 100%');
 
+$('.col-clip2').ClipPath('0 59%, 100% 0%, 100% 100%, 0% 100%');
+
+$('.col-clip3').ClipPath('0 59%, 100% 0%, 100% 100%, 0% 100%');
+});
 
 $(document).ready(function() {
 var $animation_elements = $('.animation-slideLeft');
