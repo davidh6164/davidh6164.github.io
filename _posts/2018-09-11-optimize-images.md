@@ -69,9 +69,9 @@ In conclusion it is best to take the time to find the right format for the image
 ****
 
 ### More Blog Posts
-[Chrome DevTools 101]({% post_url 2017-07-25-chrome-devtools %})
+[Chrome DevTools 101]({% post_url 2017-07-25-chrome-devtools-101 %})
 
 [Generating Colors with Hexadecimal]({% post_url 2018-02-22-hex-colors %})
 
-[Improving Web Accessibility using ARIA]({% post_url 2018-07-05-web-accessibility %})
+[Improving Web Accessibility using ARIA]({% post_url 2018-07-05-web-accessibility-aria %})
 
