@@ -34,17 +34,17 @@ Before we talk about the various image formats we should talk about the two imag
 
 Unfortunately, there is no single format that is best for an image. Although, the <b>.webp</b> format seems to be promising for the future [according to Google developers](https://developers.google.com/speed/webp/docs/compression). Some estimates say that <b>.webp</b> can save web developers up to 30% of file space when compared to <b>.jpeg</b> There are several different file formats that you will utilize for images that have their own features that make them best for certain scenarios. These features deal with animation, transparency, and quality of the image.
 
-&nbsp;&nbsp;&nbsp;&nbsp; <b>PNG</b>
-&nbsp;&nbsp;&nbsp;&nbsp; <b>.png</b> is an image format that supports transparency and lossless compression (for more on compression types see below). It allows for the designer to define an alpha channel for the image and mask the transparency. An image will be preserved with the highest resolution using this format. This format supports lossless compression.
+ <b>PNG</b>
+ <b>.png</b> is an image format that supports transparency and lossless compression (for more on compression types see below). It allows for the designer to define an alpha channel for the image and mask the transparency. An image will be preserved with the highest resolution using this format. This format supports lossless compression.
 
-&nbsp;&nbsp;&nbsp;&nbsp; <b>JPEG</b>
-&nbsp;&nbsp;&nbsp;&nbsp; Screenshots and photos are best served using the <b>.jpeg</b> format as it… If your image does not require transparency then you may be able to save some file space without sacrificing too much of your image’s appearance. When the image’s quality is slightly reduced, the file size is greatly reduced. There is no apparent change in overall appearance which makes this format best for most images. This format supports lossy compression.
+ <b>JPEG</b>
+ Screenshots and photos are best served using the <b>.jpeg</b> format as it… If your image does not require transparency then you may be able to save some file space without sacrificing too much of your image’s appearance. When the image’s quality is slightly reduced, the file size is greatly reduced. There is no apparent change in overall appearance which makes this format best for most images. This format supports lossy compression.
 
-&nbsp;&nbsp;&nbsp;&nbsp; <b>GIF</b>
-&nbsp;&nbsp;&nbsp;&nbsp; The universal choice when it comes to image animation. 
+ <b>GIF</b>
+ The universal choice when it comes to image animation. 
 
-&nbsp;&nbsp;&nbsp;&nbsp; <b>SVG</b>
-&nbsp;&nbsp;&nbsp;&nbsp; <b>.svg</b> is a great image format for all sorts of icons. Since <b>.svg</b> images are vector images, they are resolution independent. This means that no matter how users scale the site, the image will stay in pristine quality. If you were to scale a raster image the graphic could become blurry or pixelated. Also, <b>.svg</b> can be embedded as markup on a webpage or as an external image asset. 
+ <b>SVG</b>
+ <b>.svg</b> is a great image format for all sorts of icons. Since <b>.svg</b> images are vector images, they are resolution independent. This means that no matter how users scale the site, the image will stay in pristine quality. If you were to scale a raster image the graphic could become blurry or pixelated. Also, <b>.svg</b> can be embedded as markup on a webpage or as an external image asset. 
 
 ****
 
