@@ -45,7 +45,7 @@ Some developers find an issue with using rem for font sizing because the values 
 #### Formerly Normalize.css
 Resets in web development have been around for several years. Web developers like Eric Meyer, Paul Irish, and Nicholas Gallagher have all used and created stylesheets with the sole purpose of resetting all browsers to look the same. This was great as browsers had their own code specifications at the time which caused design problems. There was an issue with these early resets, they did not have any base styles which would be consistent across all browsers. Instead the early reset stylesheets started clean where each element had little to no differences such as heading elements and the like. Eventually, front-end developers started to create their own base styles on top of resets which solved the issue. Some of the most popular resets created and used are normalize.css, santize.css, and now reboot.css. 
 
-![Normalize CSS Reset]({{"../assets/bs4-cards.PNG" | relative_url}}){:class="post-lg-2"}
+![Normalize CSS Reset]({{"../assets/bs4-cards.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 CSS Reset - Normalize.css by Nicholas Gallagher
 </div>
@@ -58,7 +58,7 @@ Reboot.css is a reset stylesheet created by team Bootstrap. The new reset can be
 #### Formerly Wells, Panels, and Thumbnails
 Another amazing addition to Bootstrap 4 is the card component. Cards are meant to replace the functionality and design that used to be provided by panels, wells, and thumbnails in Bootstrap 3. This is partly because of the adoption of flexbox to provide easier alignment. Think of cards as content containers nested within a larger layout container which have a ton of customization possibilities. They usually have a different background color than the website’s background to help it stand out and are shaped like squares and rectangles, hence the name ‘card’. Cards in Bootstrap 4 initially come with minimal styling when compared to Bootstrap 3’s panels and thumbnails so that you can expand on the design with tons of custom properties that build upon the minimalist design. 
 
-![Bootstrap 4 Cards]({{"../assets/css-resets.PNG" | relative_url}}){:class="post-lg-2"}
+![Bootstrap 4 Cards]({{"../assets/css-resets.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Bootstrap 4 Cards
 </div>

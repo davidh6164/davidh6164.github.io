@@ -63,7 +63,7 @@ As you can see, it may be easy to leave out a vendor prefix unintentionally. At 
 ## Autoprefixer Tool
 The Autoprefixer Online tool is as easy as copying and pasting your code into the text box and then copying and pasting the results back into your style sheet. The browser support data comes from Can I Use and dictates which properties get which vendor prefix. With this method, you can forget about writing any vendor prefixes as Autoprefixer will take care of it for you. You can even filter through browser versions to tailor together your own set of browser support.
 
-![Autoprefixer Online Tool]({{"../assets/autoprefixer-tool.PNG" | relative_url}}){:class="post-lg-2"}
+![Autoprefixer Online Tool]({{"../assets/autoprefixer-tool.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Autoprefixer's Online Tool
 </div>

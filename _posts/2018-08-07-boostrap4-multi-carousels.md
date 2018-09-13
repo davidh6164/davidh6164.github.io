@@ -21,7 +21,7 @@ Understand the different possible design implementations for multi-item carousel
 ## Default Carousels
 Bootstrap 4 carousels are single slides by default only revealing one piece of content per slide. Using carousels developers and designers can dynamically display media for users such as images and video and add various customizations such as carousel indicators, captions, controls, and more. Animation customization can be done just as easily if you want to slow the animation down or change the animation altogether. 
 
-![Bootstrap 4 Default Carousel]({{"../assets/bootstrap-default-carousel.PNG" | relative_url}}){:class="post-lg-2"}
+![Bootstrap 4 Default Carousel]({{"../assets/bootstrap-default-carousel.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Bootstrap 4 Default Carousel
 </div>
@@ -65,14 +65,14 @@ On any Amazon product page you will find a section with a carousel titled “Spo
 
 Let’s take a look at Disney’s game web page which displays even more items in their image carousel. We saw this design last time in my previous blog post, [“Diving Into Carousel Design Patterns”](http://davidcodes.net/february/2018/02/20/carousel-design-patterns.html) where we explored the possibilities of dynamically displaying categories for your website’s content.
 
-![Disney Games Carousel]({{"../assets/multi-item-carousel.PNG" | relative_url}}){:class="post-lg-2"}
+![Disney Games Carousel]({{"../assets/multi-item-carousel.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Disney Games Multi-item Carousel
 </div>
 
 The last example I want to look at is an example I created myself on [codepen](https://s.codepen.io/davidh6164/debug/rrwPGR/vWMRwaaRnbEr) which gives product previews for multiple jackets. As you can see, the range of design and even the scope of a carousel’s purpose can be vast. Now that we covered several different design examples, let’s take a look at the several different ways developers code a multi-item carousel. 
 
-![David Codes Codepen]({{"../assets/david-multi-carousel.PNG" | relative_url}}){:class="post-lg-2"}
+![David Codes Codepen]({{"../assets/david-multi-carousel.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 David Codes Codepen Multi-item Carousel
 </div>

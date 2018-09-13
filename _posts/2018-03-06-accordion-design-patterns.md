@@ -28,7 +28,7 @@ Web pages that display a lot of content may take awhile to scroll through. The c
 
 The accordion design has been given its name due to the concept being the same as the accordion instrument. An accordion instrument expands and contracts as does an accordion web design component. Each section is given a heading with a collapsed body of content that will open when a button or content heading is clicked. 
 
-![Heineken FAQ Accordion]({{"../assets/heineken-faq.PNG" | relative_url}}){:class="post-lg-2"}
+![Heineken FAQ Accordion]({{"../assets/heineken-faq.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Heineken - FAQ Accordion
 </div>
@@ -38,7 +38,7 @@ Heineken - FAQ Accordion
 ## Constructing an Accordion
 The most common approach would be to nest several content and heading elements within a parent element. CSS would then be used to create styling between active and inactive states. JavaScript would listen for user events such as when a heading is clicked to reveal the corresponding content to match the heading. Remember, an accordion must have several content titles, expandable content containers, and some sort of indication letting users know which content heading is expanded and which content heading is collapsed. You could also take advantage of what HTML5 has to offer by using the radio input type to construct an accordion using the CSS :checked pseudo-class to serve as the functionality. 
 
-![Delonghi FAQ Accordion]({{"../assets/delonghi-faq-desktop.PNG" | relative_url}}){:class="post-lg-2"}
+![Delonghi FAQ Accordion]({{"../assets/delonghi-faq-desktop.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Delonghi - FAQ Accordion 
 </div>
@@ -51,7 +51,7 @@ Content titles serve as sub-headings and buttons for accordions. When clicked, t
 
 Let’s take a look at the Beats by Dre product overview web page. There is a vertically-oriented accordion being utilized for the purpose of dynamically displaying information about some of their products. There are icons to indicate to the user whether or not the content below a heading is expanded. Also, the content that is expanded becomes highlighted through the use of the color grey against the white background. It is simple, yet complements the overall web design well and fulfills its purpose. 
 
-![Beats Product Accordion]({{"../assets/beats-productOverview.PNG" | relative_url}}){:class="post-lg-2"}
+![Beats Product Accordion]({{"../assets/beats-productOverview.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Beats By Dre - Product Overview Accordion
 </div>

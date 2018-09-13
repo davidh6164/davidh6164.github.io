@@ -30,7 +30,7 @@ Access by everyone regardless of disability is an essential aspect.” -Tim Bern
 ## Assistive Technologies
 When developing and designing websites, it is important to keep in mind how your users can access and navigate through your website. There are many assistance technologies that exist to aid users in their ability to utilize a computer. Screen readers, screen magnifiers, voice recognition software, selection switches, and more. [JAWS](https://www.freedomscientific.com/Products/Blindness) is a great company that provides plenty of various assistive technology software such as a screen reader and hardware including braille boards. If any reader knows of other great assistive technology and companies please send me a message. Even one’s keyboard can be used as an assistive technology if a person does not own a mouse or cannot use a mouse. Not only do assistance technologies exist, but certain configuration options are sometimes available within hardware to improve accessibility to one’s personal computer. An example of this is changing the contrast options on one’s computer display to increase the readability of one’s screen. When considering how your users will access your website, you need to consider all possible options and provide the necessary code in anticipation of your users using different options. 
 
-![JAWS Assistive Technology]({{"../assets/assistive-tech.PNG" | relative_url}}){:class="post-lg-2"}
+![JAWS Assistive Technology]({{"../assets/assistive-tech.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 JAWS Assistive Technology
 </div>

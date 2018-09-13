@@ -33,7 +33,7 @@ Certain overlays can improve the readability of your text whether it’s large h
 ## Color Overlays
 You can add a layer of color to your images to complement your website’s color scheme or to increase readability. The photo truly becomes a background image as other content is layered over and becomes more clear. If we take a look at [Lobagola’s Bed & Breakfast website](http://www.lobagola.com) we can see how the color yellow is used to coincide with the overall web design and to make the text more prominent for the website’s viewers. 
 
-![Lobagola Overlay]({{"../assets/overlay-img-1.png" | relative_url}}){:class="post-lg-2"}
+![Lobagola Overlay]({{"../assets/overlay-img-1.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Color Overlay on Lobagola Bed & Breakfast
 </div>
@@ -42,7 +42,7 @@ Notice the color of the text overlay. Typically with a text overlay, you would w
 
 {% highlight css linenos %}
 .img-1 {
-   background: url(‘http://www.image-url.com/image.png/’) no-repeat;
+   background: url(‘http://www.image-url.com/image.jpg/’) no-repeat;
    background-size: cover;
 }
 .img-1::before {
@@ -59,7 +59,7 @@ Notice the color of the text overlay. Typically with a text overlay, you would w
 ## Gradient Overlays
 Gradient overlays are similar to color overlays, with the exception being that you can add multiple colors to your overlay. These colors could range in width or height as gradient has some room for customization. You could set start and stop points for colors, change the direction of the gradient, and alter the style of gradient including linear or radial. You can create some great effects that seamlessly blend your background images to the website’s background. The [Clearstream](http://www.clearstream.tv/) website uses a gradient overlay for their image with a pink color that drags on and transitions into blue towards the right end of the web page.
 
-![Clearstream Overlay]({{"../assets/overlay-img-2.png" | relative_url}}){:class="post-lg-2"}
+![Clearstream Overlay]({{"../assets/overlay-img-2.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Gradient Overlay on Clearstream
 </div>
@@ -68,7 +68,7 @@ Without the use of some sort of color overlay, the logo and small icons would be
 
 {% highlight css linenos %}
 .img-2 {
-   background: url(‘http://www.image-url.com/image.png/’) no-repeat;
+   background: url(‘http://www.image-url.com/image.jpg/’) no-repeat;
    background-size: cover;
 }
 .img-2::before {
@@ -88,14 +88,14 @@ You may be familiar with CSS filters such as applying grayscale, contrast, opaci
 
 Image blurs can be combined with a little trick to create a clever design. The trick is to create a background image then overlay the same image on top. You want to blur the background image enough to avoid drawing the users attention to the background, but you still want to make out shapes and objects in the image. Taking a look at [Fancred](http://fancred.com)’s website you will notice the background image is the same image that is then overlaid on top. The differences being size and clarity to create an immersive landing page.
 
-![Fancred Overlay]({{"../assets/overlay-img-3.png" | relative_url}}){:class="post-lg-2"}
+![Fancred Overlay]({{"../assets/overlay-img-3.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Image Blur on Fancred
 </div>
 
 {% highlight css linenos %}
 .img-3 {
-   background: url(‘http://www.image-url.com/image.png/’) no-repeat;
+   background: url(‘http://www.image-url.com/image.jpg/’) no-repeat;
    background-size: cover;
 }
 .img-3::before {
@@ -116,7 +116,7 @@ Du Haihang’s Chinese New Year Celebration Project 2015 image fading
 
 {% highlight css linenos %}
 img-4 {
-    background-image: url('http://images.com/image.png');
+    background-image: url('http://images.com/image.jpg');
     width: 500px;
     height: 300px;
     box-shadow: 0 0 8px 8px #3d3d3d inset;
@@ -128,14 +128,14 @@ img-4 {
 ## Text Overlays 
 There are several reasons to add some sort of overlay to an image and improving readability is one of them. You do not want your users eyes to strain as they attempt to read the text spread across an image. This becomes even more important when your website is being viewed on a smaller screen where the text becomes much smaller and possibly less legible. Readability is important because it determines how well the user can view and understand written text by discerning between individual letters or characters from one another. 
 
-![Otter Surfboards Overlay]({{"../assets/overlay-img-5.png" | relative_url}}){:class="post-lg-2"}
+![Otter Surfboards Overlay]({{"../assets/overlay-img-5.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Otter Surfboards text overlay
 </div>
 
 Placing large text on top of full-page images has become a common design pattern in web design as of lately and for good reason. You can showcase your branding in a landing page manner which envelopes the user in a more immersive visual experience. Compare the image above with the image below and notice the subtle differences between both seemingly similar designs. See how one is easier to read than the other, yet both provide equally creative and unique experiences. The image above is from [Otter Surfboards](https://ottersurfboards.co.uk/) and the image below is from [Aquatilis Expedition](https://www.awwwards.com/sites/aquatilis-expedition).
 
-![Aquatilis Expedition Overlay]({{"../assets/overlay-img-6.png" | relative_url}}){:class="post-lg-2"}
+![Aquatilis Expedition Overlay]({{"../assets/overlay-img-6.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Aquatilis Expedition text overlay 
 </div>

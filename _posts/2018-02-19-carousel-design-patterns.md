@@ -39,7 +39,7 @@ Next, create another element nested within the carousel container which will ser
 Now individual slides can be added in this carousel slide container which is nested inside the carousel container. Individual carousel slides can be added in by creating elements within the carousel slide container.
 
 
-![Basic Carousel]({{"../assets/carousel-controls.PNG" | relative_url}}){:class="post-lg-2"}
+![Basic Carousel]({{"../assets/carousel-controls.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Lonely Planet Homepage - Basic Carousel
 </div>
@@ -64,7 +64,7 @@ Captions can be added as an overlay or outside of the carousel container. The mo
 You can also add filters as overlays to the carousel items by using CSS filters or by using the background property with a Red-Green-Blue-Alpha (RGBA) color value. In addition to using a RGBA color value, you can use linear-gradients to create a more color specific filter for the carousel items.
 
 
-![Carousel Captions]({{"../assets/carousel-captions.PNG" | relative_url}}){:class="post-lg-2"}
+![Carousel Captions]({{"../assets/carousel-captions.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Marvel Comics Webpage - Carousel with Captions
 </div>
@@ -76,7 +76,7 @@ If the user wants to view the rest of the items on the list, he or she must clic
 
 Once one of the controls is clicked, the next item is revealed depending on the animation. Typically, a transform or opacity animation reveals the requested item and brings the item into focus. Users may cycle through the items which is why it is called a carousel.
 
-![Carousel Controls]({{"../assets/basic-carousel.PNG" | relative_url}}){:class="post-lg-2"}
+![Carousel Controls]({{"../assets/basic-carousel.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Android Homepage - Carousel with controls
 </div>
@@ -98,7 +98,7 @@ Carousel timers are a part of the carousel component that relay the amount of ti
 ## Multi Item Carousels
 Carousels can do more than display one item at a time, you can display several items simultaneously. This may be suitable if you have categories for your users to engage in, or if you wish to show a number of items that are for sale.
 
-![Multi Item Carousels]({{"../assets/multi-item-carousel.PNG" | relative_url}}){:class="post-lg-2"}
+![Multi Item Carousels]({{"../assets/multi-item-carousel.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Disney Games - Multi Item Carousel
 </div>
@@ -108,7 +108,7 @@ Disney Games - Multi Item Carousel
 ## Video Carousels
 Media for a carousel component are not limited to images and text, you can include video into your carousels as well. This is great for showcasing products or highlighting certain features.
 
-![Video Carousel]({{"../assets/video-carousel.PNG" | relative_url}}){:class="post-lg-2"}
+![Video Carousel]({{"../assets/video-carousel.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Steam Borderlands 2 webpage - Video Carousel
 </div>

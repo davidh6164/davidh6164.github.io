@@ -36,7 +36,7 @@ Different web browsers use different rendering engines to display content. Micro
 Tip&#58; Remember that you should always test your design across all of the major web browsers to ensure a consistent visual experience for all of your users. 
 </div>
 
-![Can I Use Browser Support]({{"../assets/browser-support.PNG" | relative_url}}){:class="post-lg-2"}
+![Can I Use Browser Support]({{"../assets/browser-support.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Can I Use offers browser support detection
 </div>
@@ -63,7 +63,7 @@ Browsers add their own default styling to basic HTML elements such as &lt;p&gt;,
 
 We know that web browsers use different rendering engines, so we can safely assume that the browser's default style sheet may also be different. When you are testing your web design in various browsers, you should note these differences as different styles could be applied to different elements depending on the browser you are viewing the web design on. You can easily find user-agent styles using Chrome DevTools if you are unfamiliar with them or cannot easily distinguish which elements are being affected by what style properties. These properties may slightly alter your web design, but if it is not noticeably different then you could leave the properties alone. If you want to remove some of the user-agent styles then you could directly apply properties and values to the same elements using the same CSS declaration as the user-agent stylesheet. 
 
-![Chrome Developer Tools]({{"../assets/user-agent-styles.PNG" | relative_url}}){:class="post-lg-2"}
+![Chrome Developer Tools]({{"../assets/user-agent-styles.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 Under Armor website with Chrome user-agent styles
 </div>

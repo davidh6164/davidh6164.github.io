@@ -21,7 +21,7 @@ Scrollbar styling in web design has always been unique to certain browsers and h
 
 Now, customizing scrollbars can be achieved with WebKit vendor specific properties for browsers such as Chrome, Safari, and Opera. These WebKit CSS properties that deal with scrollbar styling has been around since 2009 and made popular when David Hyatt was blogging about the endless possibilities for custom scrollbars.
 
-![Scrollbar Pieces]({{"../assets/scrollbar-pieces.png" | relative_url}}){:class="post-lg-2"}
+![Scrollbar Pieces]({{"../assets/scrollbar-pieces.jpg" | relative_url}}){:class="post-lg-2"}
 
 ****
 

@@ -34,7 +34,7 @@ Kanban complements a Web Designer’s workflow by streamlining and organizing ta
 ## Creating a Kanban
 It is very simple to structure your own Kanban on a whiteboard or you can get started by opening a new project in Trello. You will see your Kanban board is blank if you just created a new project. You can get started by structuring your Kanban. Kanbans are structured byt dividing the board into three vertical sections: Open tasks, Pending tasks, and Completed tasks. Open tasks is also known as New tasks or Backlog. Each section houses individual tasks that either need to be started, are in progress, or are completed. Dividing the board into sections makes the board easier to read, especially if a lot of tasks pinned to the board. It is important to set a limit on the number of tasks that can live within a particular column or section this is part of Kanban’s strength. This limit is commonly referred to as a WIP Limit or Work-in-Progress Limit. This creates a visual bottleneck that will keep work flowing efficiently, forcing workers to finish the tasks that are pending or have already been started but are not completed. It is commonplace to put a WIP Limit on the Pending Tasks section because it forces current, ongoing tasks to be completed before a new task from the Backlog can be picked up. 
 
-![Trello Kanban]({{"../assets/trello-kanban.png" | relative_url}}){:class="post-lg-2"}
+![Trello Kanban]({{"../assets/trello-kanban.jpg" | relative_url}}){:class="post-lg-2"}
 <div class="text-center blog-caption">
 online Kanban tool Trello
 </div>

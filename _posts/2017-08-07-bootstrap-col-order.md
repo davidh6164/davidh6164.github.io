@@ -25,14 +25,14 @@ Bootstrap 3’s documentation says this about column ordering:
 
 Since the Bootstrap framework is mobile-first as part of its responsive web design, you will need to order your columns as you would want it to appear on mobile. If you do not order your columns as you would on mobile, then Bootstrap’s column ordering classes will not work. When this is accomplished, you will then apply the modifier classes <b>col-VX-push-*</b> and <b>col-VX-pull-*</b>. Where <b>VX</b> is equal to a Bootstrap recognized viewport size such as: <b>xs, sm, md, lg</b>. You apply the push modifier class to the initial column you wish to swap places with the pull column. The pull modifier class is applied to the latter column that you wish to swap places with the push column. 
 
-![Bootstrap Grid Columns]({{"../assets/bootstrap-grid.PNG" | relative_url}}){:class="post-sm-4"}
+![Bootstrap Grid Columns]({{"../assets/bootstrap-grid.jpg" | relative_url}}){:class="post-sm-4"}
 <div class="text-center blog-caption">
 Bootstrap’s grid with different size columns
 </div>
 
 Taking a look at the image above, we can see a simple grid layout being displayed for medium sized devices and up. As an example, I am going switch the order of the two top columns in the first row by adding the column ordering modifier classes: <b>.col-sm-push-6</b> to the first column and <b>.col-sm-pull-4</b> to the second column. Once these classes are applied, then you can refresh to see the new column order changes. The first column now appears as the second column, and what was originally the second column becomes the first column in order. 
 
-![Bootstrap Grid Column Order]({{"../assets/col-order.PNG" | relative_url}}){:class="post-sm-4"}
+![Bootstrap Grid Column Order]({{"../assets/col-order.jpg" | relative_url}}){:class="post-sm-4"}
 <div class="text-center blog-caption">
 Bootstrap’s grid using Column Push and Pull Modifier Classes
 </div>
